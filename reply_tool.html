@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>and gray. 返信文ツール</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Serif+Display&display=swap');
+  :root {
+    --bg:#0d0d0d; --surface:#161616; --surface2:#1e1e1e;
+    --border:#2a2a2a; --accent:#c8a97e; --accent-dim:rgba(200,169,126,0.15);
+    --text:#e8e8e8; --text-dim:#888; --red:#e05c5c; --green:#5cb870;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:'Noto Sans JP',sans-serif;font-weight:300;min-height:100vh;padding-bottom:60px}
+  header{background:var(--surface);border-bottom:1px solid var(--border);padding:16px 20px 14px;position:sticky;top:0;z-index:100}
+  header h1{font-family:'DM Serif Display',serif;font-size:18px;color:var(--accent);letter-spacing:.05em}
+  header p{font-size:10px;color:var(--text-dim);margin-top:3px;letter-spacing:.08em}
+  main{padding:20px 16px;max-width:520px;margin:0 auto}
+  .section-label{font-size:10px;letter-spacing:.15em;color:var(--accent);text-transform:uppercase;margin-bottom:8px;margin-top:24px}
+  .section-label:first-of-type{margin-top:0}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;margin-bottom:4px}
+  select{width:100%;background:var(--surface2);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:12px 14px;font-size:15px;font-family:'Noto Sans JP',sans-serif;font-weight:400;appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23888' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;outline:none;transition:border-color .2s}
+  select:focus{border-color:var(--accent)}
+  .date-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .date-input-wrap{display:flex;flex-direction:column;gap:6px}
+  .date-input-wrap label{font-size:11px;color:var(--text-dim)}
+  input[type="date"]{width:100%;background:var(--surface2);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:11px 12px;font-size:14px;font-family:'Noto Sans JP',sans-serif;appearance:none;-webkit-appearance:none;outline:none;transition:border-color .2s}
+  input[type="date"]:focus{border-color:var(--accent)}
+  input[type="date"]::-webkit-calendar-picker-indicator{filter:invert(.6);cursor:pointer}
+  .staff-exclude{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+  .staff-chip{display:flex;align-items:center;gap:5px;background:var(--surface2);border:1px solid var(--border);border-radius:20px;padding:5px 12px;font-size:12px;cursor:pointer;transition:all .15s;user-select:none;-webkit-tap-highlight-color:transparent}
+  .staff-chip.excluded{background:var(--accent-dim);border-color:var(--accent);color:var(--accent)}
+  .staff-chip .dot{width:6px;height:6px;border-radius:50%;background:var(--text-dim);transition:background .15s;flex-shrink:0}
+  .staff-chip.excluded .dot{background:var(--accent)}
+  .store-tag{font-size:10px;color:var(--text-dim)}
+  .staff-chip.excluded .store-tag{color:var(--accent);opacity:.7}
+  .btn-generate{width:100%;background:var(--accent);color:#0d0d0d;border:none;border-radius:10px;padding:16px;font-size:15px;font-family:'Noto Sans JP',sans-serif;font-weight:700;letter-spacing:.05em;cursor:pointer;margin-top:20px;transition:opacity .2s,transform .1s;-webkit-tap-highlight-color:transparent}
+  .btn-generate:active{opacity:.8;transform:scale(.98)}
+  #result-area{display:none}
+  .result-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:12px}
+  .result-header{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--border);background:var(--surface2)}
+  .result-header span{font-size:12px;color:var(--text-dim);letter-spacing:.08em}
+  .btn-copy{background:var(--accent-dim);color:var(--accent);border:1px solid var(--accent);border-radius:6px;padding:5px 14px;font-size:12px;font-family:'Noto Sans JP',sans-serif;font-weight:500;cursor:pointer;transition:all .15s;-webkit-tap-highlight-color:transparent}
+  .btn-copy.copied{background:rgba(92,184,112,.15);border-color:var(--green);color:var(--green)}
+  .result-body{padding:16px;font-size:14px;line-height:2;white-space:pre-wrap;word-break:break-all}
+  .summary{font-size:12px;color:var(--text-dim);margin-bottom:12px}
+  .error-msg{background:rgba(224,92,92,.1);border:1px solid var(--red);border-radius:8px;padding:12px 16px;font-size:13px;color:var(--red);margin-bottom:12px}
+  #loading{display:none;text-align:center;padding:30px;color:var(--text-dim);font-size:13px}
+  .spinner{width:24px;height:24px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 12px}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  hr.sep{border:none;border-top:1px solid var(--border);margin:24px 0}
+</style>
+</head>
+<body>
+<header>
+  <h1>and gray. 返信文ツール</h1>
+  <p id="data-ts">データ読み込み中...</p>
+</header>
+<main>
+  <div class="section-label">担当スタッフ</div>
+  <div class="card"><select id="sel-staff"><option value="">選択してください</option></select></div>
+
+  <div class="section-label">お客様のメニュー</div>
+  <div class="card">
+    <select id="sel-menu">
+      <option value="75">カットのみ（75分）</option>
+      <option value="90">60分〜90分コース</option>
+      <option value="120" selected>60分〜120分コース</option>
+      <option value="150">60分〜150分コース</option>
+      <option value="180">60分〜180分コース</option>
+      <option value="210">なんでも（210分以上）</option>
+    </select>
+  </div>
+
+  <div class="section-label">表示期間</div>
+  <div class="card">
+    <div class="date-row">
+      <div class="date-input-wrap"><label>開始日</label><input type="date" id="date-from"></div>
+      <div class="date-input-wrap"><label>終了日</label><input type="date" id="date-to"></div>
+    </div>
+  </div>
+
+  <div class="section-label">返信文から除くスタッフ</div>
+  <div class="card">
+    <div class="staff-exclude" id="staff-chips"></div>
+    <p style="font-size:11px;color:var(--text-dim);margin-top:10px">タップで除外 / 再タップで戻す</p>
+  </div>
+
+  <button class="btn-generate" onclick="generate()">返信文を生成する</button>
+  <div id="loading"><div class="spinner"></div>生成中...</div>
+  <hr class="sep">
+  <div id="result-area"></div>
+</main>
+
+<script>
+let staffData = null;
+
+const MENU_LABELS = {
+  75:  ['75分コース'],
+  90:  ['75分コース','60分〜90分コース'],
+  120: ['75分コース','60分〜90分コース','60分〜120分コース'],
+  150: ['75分コース','60分〜90分コース','60分〜120分コース','60分〜150分コース'],
+  180: ['75分コース','60分〜90分コース','60分〜120分コース','60分〜150分コース','60分〜180分コース'],
+  210: ['75分コース','60分〜90分コース','60分〜120分コース','60分〜150分コース','60分〜180分コース','なんでも'],
+};
+
+async function loadData(){
+  try{
+    const res = await fetch('staff_availability.json');
+    if(!res.ok) throw new Error('file not found');
+    staffData = await res.json();
+    const ts = staffData.meta.generated_at;
+    const dt = ts ? new Date(ts) : null;
+    document.getElementById('data-ts').textContent = dt
+      ? `データ更新: ${dt.getMonth()+1}/${dt.getDate()} ${dt.getHours()}:${String(dt.getMinutes()).padStart(2,'0')}`
+      : '読み込み完了';
+    buildUI();
+  }catch(e){
+    document.getElementById('data-ts').textContent = '⚠️ データ読み込み失敗 — ファイルを確認してください';
+  }
+}
+
+function buildUI(){
+  const sel = document.getElementById('sel-staff');
+  const stores = {};
+  for(const [k,s] of Object.entries(staffData.staff)){
+    (stores[s.store] = stores[s.store]||[]).push({k,...s});
+  }
+  for(const [store,list] of Object.entries(stores)){
+    const og = document.createElement('optgroup');
+    og.label = `── ${store}店 ──`;
+    list.forEach(s=>{
+      const o = document.createElement('option');
+      o.value = s.k;
+      o.textContent = s.display + (s.is_kaito?' (かいと)':'');
+      og.appendChild(o);
+    });
+    sel.appendChild(og);
+  }
+
+  const chips = document.getElementById('staff-chips');
+  for(const [k,s] of Object.entries(staffData.staff)){
+    const c = document.createElement('div');
+    c.className = 'staff-chip';
+    c.dataset.key = k;
+    c.innerHTML = `<span class="dot"></span>${s.display}<span class="store-tag">${s.store}</span>`;
+    c.addEventListener('click',()=>c.classList.toggle('excluded'));
+    chips.appendChild(c);
+  }
+
+  const today = new Date();
+  const end = new Date(today); end.setDate(end.getDate()+14);
+  document.getElementById('date-from').value = fmt(today);
+  document.getElementById('date-to').value = fmt(end);
+}
+
+function fmt(d){
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+
+function generate(){
+  if(!staffData){ showError('データが読み込まれていません。'); return; }
+  const staffKey = document.getElementById('sel-staff').value;
+  const menuMin  = parseInt(document.getElementById('sel-menu').value);
+  const from     = document.getElementById('date-from').value;
+  const to       = document.getElementById('date-to').value;
+  if(!staffKey){ showError('担当スタッフを選択してください。'); return; }
+  if(!from||!to){ showError('表示期間を入力してください。'); return; }
+  if(from>to){ showError('開始日が終了日より後になっています。'); return; }
+
+  const excluded = new Set([...document.querySelectorAll('.staff-chip.excluded')].map(c=>c.dataset.key));
+
+  document.getElementById('loading').style.display = 'block';
+  document.getElementById('result-area').style.display = 'none';
+
+  setTimeout(()=>{
+    try{ renderResult(buildReply(staffKey,menuMin,from,to,excluded)); }
+    catch(e){ showError('生成エラー: '+e.message); }
+    document.getElementById('loading').style.display = 'none';
+  },50);
+}
+
+function buildReply(staffKey,menuMin,from,to,excluded){
+  const myStaff = staffData.staff[staffKey];
+  const validLabels = new Set(MENU_LABELS[menuMin]||[]);
+
+  function getLines(days){
+    return days
+      .filter(d=>d.date>=from && d.date<=to && d.status==='available')
+      .flatMap(d=>{
+        const matched = d.groups
+          .filter(g=>validLabels.has(g.label))
+          .flatMap(g=>g.times.map(t=>`${t} ${g.label}`));
+        return matched.length ? [`${d.month}/${d.day}(${d.dow}) ${matched.join(' / ')}`] : [];
+      });
+  }
+
+  const myLines = getLines(myStaff.days);
+
+  const others = Object.entries(staffData.staff)
+    .filter(([k])=>k!==staffKey && !excluded.has(k))
+    .map(([k,s])=>({display:s.display,store:s.store,lines:getLines(s.days)}))
+    .filter(s=>s.lines.length>0);
+
+  let text = 'かしこまりました🙇\n';
+  text += `\n私（${myStaff.display}）の予約ですと\n\n`;
+  text += myLines.length ? myLines.join('\n') : '（この期間は空きがございません）';
+
+  if(others.length){
+    text += '\n\n他担当の空きですと\n';
+    others.forEach(s=>{
+      text += `\n【${s.display}】（${s.store}店）\n${s.lines.join('\n')}`;
+    });
+  }
+  text += '\n\nいかがでしょうか？';
+
+  return {text, myLines, others};
+}
+
+function renderResult({text,myLines,others}){
+  const area = document.getElementById('result-area');
+  area.innerHTML = '';
+  area.style.display = 'block';
+
+  const sum = document.createElement('p');
+  sum.className = 'summary';
+  sum.textContent = `自分: ${myLines.length}枠 ／ 他スタッフ: ${others.length}名に空きあり`;
+  area.appendChild(sum);
+
+  const card = document.createElement('div');
+  card.className = 'result-card';
+
+  const hdr = document.createElement('div');
+  hdr.className = 'result-header';
+  hdr.innerHTML = '<span>REPLY TEXT</span>';
+
+  const btn = document.createElement('button');
+  btn.className = 'btn-copy';
+  btn.textContent = 'コピー';
+  btn.onclick = ()=>{
+    const copy = ()=>{ btn.textContent='✓ コピー完了'; btn.classList.add('copied'); setTimeout(()=>{ btn.textContent='コピー'; btn.classList.remove('copied'); },2000); };
+    if(navigator.clipboard){ navigator.clipboard.writeText(text).then(copy).catch(()=>{ fb(); copy(); }); }
+    else{ fb(); copy(); }
+    function fb(){ const ta=document.createElement('textarea'); ta.value=text; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta); }
+  };
+  hdr.appendChild(btn);
+
+  const body = document.createElement('div');
+  body.className = 'result-body';
+  body.textContent = text;
+
+  card.appendChild(hdr);
+  card.appendChild(body);
+  area.appendChild(card);
+
+  // スクロール
+  setTimeout(()=>area.scrollIntoView({behavior:'smooth',block:'start'}),100);
+}
+
+function showError(msg){
+  document.getElementById('loading').style.display='none';
+  const a = document.getElementById('result-area');
+  a.style.display='block';
+  a.innerHTML=`<div class="error-msg">⚠️ ${msg}</div>`;
+}
+
+loadData();
+</script>
+</body>
+</html>
