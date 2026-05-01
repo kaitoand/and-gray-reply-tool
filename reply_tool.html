@@ -109,6 +109,9 @@ const MENU_LABELS = {
   240: ['なんでも'],
 };
 
+// 返信文の他担当セクションから初期状態で除外するスタッフキー
+const EXCLUDE_FROM_REPLY = new Set(['NOZOMI']);
+
 async function loadData(){
   try{
     const res = await fetch('staff_reply_data.json');
@@ -146,7 +149,7 @@ function buildUI(){
   const chips = document.getElementById('staff-chips');
   for(const [k,s] of Object.entries(staffData.staff)){
     const c = document.createElement('div');
-    c.className = 'staff-chip';
+    c.className = EXCLUDE_FROM_REPLY.has(k) ? 'staff-chip excluded' : 'staff-chip';
     c.dataset.key = k;
     c.innerHTML = `<span class="dot"></span>${s.display}<span class="store-tag">${s.store}</span>`;
     c.addEventListener('click',()=>c.classList.toggle('excluded'));
