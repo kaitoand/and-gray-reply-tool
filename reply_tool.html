@@ -109,7 +109,7 @@ const MENU_LABELS = {
   240: ['なんでも'],
 };
 
-// 返信文の他担当セクションから初期状態で除外するスタッフキー
+// このセットのスタッフはUI（ドロップダウン・チップ）から非表示 + 他担当出力からも除外
 const EXCLUDE_FROM_REPLY = new Set(['NOZOMI']);
 
 async function loadData(){
@@ -132,6 +132,7 @@ function buildUI(){
   const sel = document.getElementById('sel-staff');
   const stores = {};
   for(const [k,s] of Object.entries(staffData.staff)){
+    if(EXCLUDE_FROM_REPLY.has(k)) continue;
     (stores[s.store] = stores[s.store]||[]).push({k,...s});
   }
   for(const [store,list] of Object.entries(stores)){
@@ -148,8 +149,9 @@ function buildUI(){
 
   const chips = document.getElementById('staff-chips');
   for(const [k,s] of Object.entries(staffData.staff)){
+    if(EXCLUDE_FROM_REPLY.has(k)) continue;
     const c = document.createElement('div');
-    c.className = EXCLUDE_FROM_REPLY.has(k) ? 'staff-chip excluded' : 'staff-chip';
+    c.className = 'staff-chip';
     c.dataset.key = k;
     c.innerHTML = `<span class="dot"></span>${s.display}<span class="store-tag">${s.store}</span>`;
     c.addEventListener('click',()=>c.classList.toggle('excluded'));
@@ -177,6 +179,7 @@ function generate(){
   if(from>to){ showError('開始日が終了日より後になっています。'); return; }
 
   const excluded = new Set([...document.querySelectorAll('.staff-chip.excluded')].map(c=>c.dataset.key));
+  EXCLUDE_FROM_REPLY.forEach(k=>excluded.add(k));
 
   document.getElementById('loading').style.display = 'block';
   document.getElementById('result-area').style.display = 'none';
