@@ -64,12 +64,14 @@
   <div class="section-label">お客様のメニュー</div>
   <div class="card">
     <select id="sel-menu">
-      <option value="75">カットのみ（75分）</option>
-      <option value="90">60分〜90分コース</option>
-      <option value="120" selected>60分〜120分コース</option>
-      <option value="150">60分〜150分コース</option>
-      <option value="180">60分〜180分コース</option>
-      <option value="210">なんでも（210分以上）</option>
+      <option value="60">60分</option>
+        <option value="75">75分</option>
+      <option value="90">90分</option>
+      <option value="120" selected>120分</option>
+      <option value="150">150分</option>
+      <option value="180">180分</option>
+      <option value="210">210分</option>
+        <option value="240">240分</option>
     </select>
   </div>
 
@@ -98,11 +100,11 @@ let staffData = null;
 
 const MENU_LABELS = {
   75:  ['75分コース'],
-  90:  ['75分コース','60分〜90分コース'],
-  120: ['75分コース','60分〜90分コース','60分〜120分コース'],
-  150: ['75分コース','60分〜90分コース','60分〜120分コース','60分〜150分コース'],
-  180: ['75分コース','60分〜90分コース','60分〜120分コース','60分〜150分コース','60分〜180分コース'],
-  210: ['75分コース','60分〜90分コース','60分〜120分コース','60分〜150分コース','60分〜180分コース','なんでも'],
+  90:  ['75分コース','90分'],
+  120: ['75分コース','90分','120分'],
+  150: ['75分コース','90分','120分','150分'],
+  180: ['75分コース','90分','120分','150分','180分'],
+  210: ['75分コース','90分','120分','150分','180分','なんでも'],
 };
 
 async function loadData(){
