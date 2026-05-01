@@ -109,7 +109,7 @@ const MENU_LABELS = {
 
 async function loadData(){
   try{
-    const res = await fetch('staff_availability.json');
+    const res = await fetch('staff_reply_data.json');
     if(!res.ok) throw new Error('file not found');
     staffData = await res.json();
     const ts = staffData.meta.generated_at;
