@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-01T23:57:50.143200+09:00"
+    "generated_at": "2026-05-02T00:13:02.118849+09:00"
   },
   "staff": {
     "KAITO": {
@@ -8,23 +8,6 @@
       "store": "船橋",
       "is_kaito": true,
       "days": [
-        {
-          "date": "2026-05-01",
-          "month": 5,
-          "day": 1,
-          "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:00",
-            "13:30",
-            "14:30",
-            "16:00",
-            "17:00"
-          ],
-          "full_empty": false
-        },
         {
           "date": "2026-05-02",
           "month": 5,
@@ -432,6 +415,25 @@
           "close": "17:00",
           "appt_ends": [],
           "full_empty": false
+        },
+        {
+          "date": "2026-05-31",
+          "month": 5,
+          "day": 31,
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:00",
+            "12:30",
+            "13:00",
+            "13:30",
+            "15:00",
+            "16:00",
+            "17:00"
+          ],
+          "full_empty": false
         }
       ]
     },
@@ -440,21 +442,6 @@
       "store": "船橋",
       "is_kaito": false,
       "days": [
-        {
-          "date": "2026-05-01",
-          "month": 5,
-          "day": 1,
-          "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "15:00",
-            "17:00"
-          ],
-          "full_empty": false
-        },
         {
           "date": "2026-05-02",
           "month": 5,
@@ -841,6 +828,20 @@
             "17:00"
           ],
           "full_empty": false
+        },
+        {
+          "date": "2026-05-31",
+          "month": 5,
+          "day": 31,
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
         }
       ]
     },
@@ -849,21 +850,6 @@
       "store": "船橋",
       "is_kaito": false,
       "days": [
-        {
-          "date": "2026-05-01",
-          "month": 5,
-          "day": 1,
-          "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:30",
-            "16:00",
-            "16:30"
-          ],
-          "full_empty": false
-        },
         {
           "date": "2026-05-02",
           "month": 5,
@@ -1243,6 +1229,20 @@
             "17:00"
           ],
           "full_empty": false
+        },
+        {
+          "date": "2026-05-31",
+          "month": 5,
+          "day": 31,
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
         }
       ]
     },
@@ -1251,21 +1251,6 @@
       "store": "船橋",
       "is_kaito": false,
       "days": [
-        {
-          "date": "2026-05-01",
-          "month": 5,
-          "day": 1,
-          "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "15:30",
-            "16:30"
-          ],
-          "full_empty": false
-        },
         {
           "date": "2026-05-02",
           "month": 5,
@@ -1641,6 +1626,17 @@
             "17:00"
           ],
           "full_empty": false
+        },
+        {
+          "date": "2026-05-31",
+          "month": 5,
+          "day": 31,
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
         }
       ]
     },
@@ -1649,17 +1645,6 @@
       "store": "船橋",
       "is_kaito": false,
       "days": [
-        {
-          "date": "2026-05-01",
-          "month": 5,
-          "day": 1,
-          "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
-        },
         {
           "date": "2026-05-02",
           "month": 5,
@@ -2044,6 +2029,21 @@
             "17:30"
           ],
           "full_empty": false
+        },
+        {
+          "date": "2026-05-31",
+          "month": 5,
+          "day": 31,
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "15:00",
+            "17:30"
+          ],
+          "full_empty": false
         }
       ]
     },
@@ -2052,17 +2052,6 @@
       "store": "船橋",
       "is_kaito": false,
       "days": [
-        {
-          "date": "2026-05-01",
-          "month": 5,
-          "day": 1,
-          "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
-        },
         {
           "date": "2026-05-02",
           "month": 5,
@@ -2444,6 +2433,17 @@
             "17:00"
           ],
           "full_empty": false
+        },
+        {
+          "date": "2026-05-31",
+          "month": 5,
+          "day": 31,
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
         }
       ]
     },
@@ -2452,17 +2452,6 @@
       "store": "船橋",
       "is_kaito": false,
       "days": [
-        {
-          "date": "2026-05-01",
-          "month": 5,
-          "day": 1,
-          "dow": "金",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
-        },
         {
           "date": "2026-05-02",
           "month": 5,
@@ -2781,6 +2770,17 @@
           "close": "17:00",
           "appt_ends": [],
           "full_empty": false
+        },
+        {
+          "date": "2026-05-31",
+          "month": 5,
+          "day": 31,
+          "dow": "日",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
         }
       ]
     },
@@ -2789,20 +2789,6 @@
       "store": "東京",
       "is_kaito": false,
       "days": [
-        {
-          "date": "2026-05-01",
-          "month": 5,
-          "day": 1,
-          "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "16:00"
-          ],
-          "full_empty": false
-        },
         {
           "date": "2026-05-02",
           "month": 5,
@@ -3173,6 +3159,22 @@
           "close": "17:00",
           "appt_ends": [],
           "full_empty": false
+        },
+        {
+          "date": "2026-05-31",
+          "month": 5,
+          "day": 31,
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "14:00",
+            "15:20",
+            "17:00"
+          ],
+          "full_empty": false
         }
       ]
     },
@@ -3181,21 +3183,6 @@
       "store": "東京",
       "is_kaito": false,
       "days": [
-        {
-          "date": "2026-05-01",
-          "month": 5,
-          "day": 1,
-          "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "10:40",
-            "13:30",
-            "15:30"
-          ],
-          "full_empty": false
-        },
         {
           "date": "2026-05-02",
           "month": 5,
@@ -3564,6 +3551,17 @@
           "close": "17:00",
           "appt_ends": [],
           "full_empty": false
+        },
+        {
+          "date": "2026-05-31",
+          "month": 5,
+          "day": 31,
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
         }
       ]
     },
@@ -3572,21 +3570,6 @@
       "store": "東京",
       "is_kaito": false,
       "days": [
-        {
-          "date": "2026-05-01",
-          "month": 5,
-          "day": 1,
-          "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:30",
-            "14:30",
-            "16:30"
-          ],
-          "full_empty": false
-        },
         {
           "date": "2026-05-02",
           "month": 5,
@@ -3952,6 +3935,20 @@
             "17:00"
           ],
           "full_empty": false
+        },
+        {
+          "date": "2026-05-31",
+          "month": 5,
+          "day": 31,
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
         }
       ]
     },
@@ -3960,22 +3957,6 @@
       "store": "東京",
       "is_kaito": false,
       "days": [
-        {
-          "date": "2026-05-01",
-          "month": 5,
-          "day": 1,
-          "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "14:00",
-            "14:20",
-            "17:00"
-          ],
-          "full_empty": false
-        },
         {
           "date": "2026-05-02",
           "month": 5,
@@ -4343,6 +4324,17 @@
           "close": "17:00",
           "appt_ends": [],
           "full_empty": false
+        },
+        {
+          "date": "2026-05-31",
+          "month": 5,
+          "day": 31,
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
         }
       ]
     },
@@ -4351,20 +4343,6 @@
       "store": "東京",
       "is_kaito": false,
       "days": [
-        {
-          "date": "2026-05-01",
-          "month": 5,
-          "day": 1,
-          "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:00",
-            "17:00"
-          ],
-          "full_empty": false
-        },
         {
           "date": "2026-05-02",
           "month": 5,
@@ -4718,6 +4696,17 @@
           "appt_ends": [
             "12:30"
           ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-31",
+          "month": 5,
+          "day": 31,
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
           "full_empty": false
         }
       ]
