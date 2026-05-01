@@ -227,7 +227,8 @@ function buildReply(staffKey,menuMin,from,to,excluded){
     });
 
   // 店舗別にまとめ、店舗内は日時順ソート → セクション文字列を組み立て
-  const storeOrder = ['船橋','東京'];
+  // 選択されたスタッフの店舗を先頭に配置
+  const storeOrder = myStaff.store === '東京' ? ['東京','船橋'] : ['船橋','東京'];
   const byStore = {};
   Object.values(slotMap).forEach(slot=>{
     (byStore[slot.store] = byStore[slot.store] || []).push(slot);
