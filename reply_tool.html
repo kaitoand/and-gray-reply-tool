@@ -202,20 +202,41 @@ function buildReply(staffKey,menuMin,from,to,excluded){
 
   const myLines = getLines(myStaff.days);
 
-  const others = Object.entries(staffData.staff)
+  // 他担当の空きを「日付+時刻」キーでグルーピング
+  const slotMap = {};
+  Object.entries(staffData.staff)
     .filter(([k])=>k!==staffKey && !excluded.has(k))
-    .map(([k,s])=>({display:s.display,store:s.store,lines:getLines(s.days)}))
-    .filter(s=>s.lines.length>0);
+    .forEach(([k,s])=>{
+      s.days
+        .filter(d=>d.date>=from && d.date<=to && d.status==='available')
+        .forEach(d=>{
+          d.groups.filter(g=>validLabels.has(g.label)).forEach(g=>{
+            g.times.forEach(t=>{
+              const key = `${d.date}|${t}`;
+              if(!slotMap[key]) slotMap[key] = {date:d.date, time:t, dow:d.dow, month:d.month, day:d.day, byStore:{}};
+              if(!slotMap[key].byStore[s.store]) slotMap[key].byStore[s.store] = new Set();
+              slotMap[key].byStore[s.store].add(s.display);
+            });
+          });
+        });
+    });
+
+  const others = Object.values(slotMap)
+    .sort((a,b)=> a.date!==b.date ? a.date.localeCompare(b.date) : a.time.localeCompare(b.time))
+    .map(slot=>{
+      const parts = ['船橋','東京'].map(st=>{
+        const names = slot.byStore[st];
+        return names ? `${[...names].join('・')}（${st}）` : null;
+      }).filter(x=>x);
+      return `${slot.month}/${slot.day}(${slot.dow}) ${slot.time} → ${parts.join('　')}`;
+    });
 
   let text = 'かしこまりました🙇\n';
   text += `\n私（${myStaff.display}）の予約ですと\n\n`;
   text += myLines.length ? myLines.join('\n') : '（この期間は空きがございません）';
 
   if(others.length){
-    text += '\n\n他担当の空きですと\n';
-    others.forEach(s=>{
-      text += `\n【${s.display}】（${s.store}店）\n${s.lines.join('\n')}`;
-    });
+    text += '\n\n他担当の空きですと\n\n' + others.join('\n');
   }
   text += '\n\nいかがでしょうか？';
 
@@ -229,7 +250,7 @@ function renderResult({text,myLines,others}){
 
   const sum = document.createElement('p');
   sum.className = 'summary';
-  sum.textContent = `自分: ${myLines.length}枠 ／ 他スタッフ: ${others.length}名に空きあり`;
+  sum.textContent = `自分: ${myLines.length}枠 ／ 他スタッフ: ${others.length}枠に空きあり`;
   area.appendChild(sum);
 
   const card = document.createElement('div');
