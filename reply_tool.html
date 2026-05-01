@@ -202,7 +202,7 @@ function buildReply(staffKey,menuMin,from,to,excluded){
 
   const myLines = getLines(myStaff.days);
 
-  // 他担当の空きを「日付+時刻」キーでグルーピング
+  // 他担当の空きを「日付+時刻+店舗」キーでグルーピング（店舗別セクションで表示）
   const slotMap = {};
   Object.entries(staffData.staff)
     .filter(([k])=>k!==staffKey && !excluded.has(k))
@@ -212,45 +212,50 @@ function buildReply(staffKey,menuMin,from,to,excluded){
         .forEach(d=>{
           d.groups.filter(g=>validLabels.has(g.label)).forEach(g=>{
             g.times.forEach(t=>{
-              const key = `${d.date}|${t}`;
-              if(!slotMap[key]) slotMap[key] = {date:d.date, time:t, dow:d.dow, month:d.month, day:d.day, byStore:{}};
-              if(!slotMap[key].byStore[s.store]) slotMap[key].byStore[s.store] = new Set();
-              slotMap[key].byStore[s.store].add(s.display);
+              const key = `${d.date}|${t}|${s.store}`;
+              if(!slotMap[key]) slotMap[key] = {date:d.date, time:t, store:s.store, dow:d.dow, month:d.month, day:d.day, names:new Set()};
+              slotMap[key].names.add(s.display);
             });
           });
         });
     });
 
-  const others = Object.values(slotMap)
-    .sort((a,b)=> a.date!==b.date ? a.date.localeCompare(b.date) : a.time.localeCompare(b.time))
-    .map(slot=>{
-      const parts = ['船橋','東京'].map(st=>{
-        const names = slot.byStore[st];
-        return names ? `${[...names].join('・')}（${st}）` : null;
-      }).filter(x=>x);
-      return `${slot.month}/${slot.day}(${slot.dow}) ${slot.time} → ${parts.join('　')}`;
+  // 店舗別にまとめ、店舗内は日時順ソート → セクション文字列を組み立て
+  const storeOrder = ['船橋','東京'];
+  const byStore = {};
+  Object.values(slotMap).forEach(slot=>{
+    (byStore[slot.store] = byStore[slot.store] || []).push(slot);
+  });
+  const others = storeOrder
+    .filter(st=>byStore[st] && byStore[st].length)
+    .map(st=>{
+      const lines = byStore[st]
+        .sort((a,b)=> a.date!==b.date ? a.date.localeCompare(b.date) : a.time.localeCompare(b.time))
+        .map(slot=>`${slot.month}/${slot.day}(${slot.dow}) ${slot.time} → ${[...slot.names].join('・')}`);
+      return `【${st}店】\n${lines.join('\n')}`;
     });
+  const otherSlotCount = Object.values(slotMap).length;
 
   let text = 'かしこまりました🙇\n';
   text += `\n私（${myStaff.display}）の予約ですと\n\n`;
   text += myLines.length ? myLines.join('\n') : '（この期間は空きがございません）';
 
   if(others.length){
-    text += '\n\n他担当の空きですと\n\n' + others.join('\n');
+    text += '\n\n他担当の空きですと\n\n' + others.join('\n\n');
   }
   text += '\n\nいかがでしょうか？';
 
-  return {text, myLines, others};
+  return {text, myLines, others, otherSlotCount};
 }
 
-function renderResult({text,myLines,others}){
+function renderResult({text,myLines,others,otherSlotCount}){
   const area = document.getElementById('result-area');
   area.innerHTML = '';
   area.style.display = 'block';
 
   const sum = document.createElement('p');
   sum.className = 'summary';
-  sum.textContent = `自分: ${myLines.length}枠 ／ 他スタッフ: ${others.length}枠に空きあり`;
+  sum.textContent = `自分: ${myLines.length}枠 ／ 他スタッフ: ${otherSlotCount}枠に空きあり`;
   area.appendChild(sum);
 
   const card = document.createElement('div');
