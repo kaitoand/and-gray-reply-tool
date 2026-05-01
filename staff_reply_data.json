@@ -1,6 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-05-02T03:15:37.822848+09:00"
+    "year": 2026,
+    "month": 5,
+    "today": "2026-05-02",
+    "generated_at": "2026-05-02T03:27:12.719508+09:00"
   },
   "staff": {
     "KAITO": {
@@ -9,431 +12,379 @@
       "is_kaito": true,
       "days": [
         {
+          "date": "2026-05-01",
+          "month": 5,
+          "day": 1,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
           "date": "2026-05-02",
           "month": 5,
           "day": 2,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-03",
           "month": 5,
           "day": 3,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:30",
-            "13:00",
-            "13:30",
-            "14:30",
-            "15:00",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-04",
           "month": 5,
           "day": 4,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "14:00",
-            "14:30",
-            "16:00",
-            "16:30"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-05",
           "month": 5,
           "day": 5,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "14:30",
-            "15:30",
-            "16:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-06",
           "month": 5,
           "day": 6,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-07",
           "month": 5,
           "day": 7,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "14:00",
-            "14:30",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜180分コース",
+              "times": [
+                "14:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-08",
           "month": 5,
           "day": 8,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "14:30",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜180分コース",
+              "times": [
+                "14:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-09",
           "month": 5,
           "day": 9,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-10",
           "month": 5,
           "day": 10,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:00",
-            "11:30",
-            "13:00",
-            "16:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-11",
           "month": 5,
           "day": 11,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "14:00",
-            "15:30",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-12",
           "month": 5,
           "day": 12,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-13",
           "month": 5,
           "day": 13,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-14",
           "month": 5,
           "day": 14,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "14:30",
-            "15:30",
-            "16:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-15",
           "month": 5,
           "day": 15,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "14:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-16",
           "month": 5,
           "day": 16,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-17",
           "month": 5,
           "day": 17,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:30",
-            "13:30",
-            "14:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜180分コース",
+              "times": [
+                "14:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-18",
           "month": 5,
           "day": 18,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:30",
-            "12:00",
-            "15:00",
-            "16:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜150分コース",
+              "times": [
+                "15:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-19",
           "month": 5,
           "day": 19,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:00",
-            "13:00",
-            "14:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "14:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-20",
           "month": 5,
           "day": 20,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-21",
           "month": 5,
           "day": 21,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "14:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "14:00"
+              ]
+            },
+            {
+              "label": "60分〜150分コース",
+              "times": [
+                "10:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-22",
           "month": 5,
           "day": 22,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "12:30",
-            "15:00",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜150分コース",
+              "times": [
+                "15:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-23",
           "month": 5,
           "day": 23,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-24",
           "month": 5,
           "day": 24,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:00",
-            "13:30",
-            "14:00",
-            "15:00",
-            "16:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-25",
           "month": 5,
           "day": 25,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-26",
           "month": 5,
           "day": 26,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-27",
           "month": 5,
           "day": 27,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:00",
-            "14:00"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "11:00"
+              ]
+            },
+            {
+              "label": "60分〜180分コース",
+              "times": [
+                "14:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-28",
           "month": 5,
           "day": 28,
           "dow": "木",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-29",
           "month": 5,
           "day": 29,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:00",
-            "13:30",
-            "15:00"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:30"
+              ]
+            },
+            {
+              "label": "60分〜90分コース",
+              "times": [
+                "10:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-30",
           "month": 5,
           "day": 30,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-31",
           "month": 5,
           "day": 31,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:00",
-            "12:30",
-            "13:00",
-            "13:30",
-            "15:00",
-            "16:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         }
       ]
     },
@@ -443,405 +394,297 @@
       "is_kaito": false,
       "days": [
         {
+          "date": "2026-05-01",
+          "month": 5,
+          "day": 1,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
           "date": "2026-05-02",
           "month": 5,
           "day": 2,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-03",
           "month": 5,
           "day": 3,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-04",
           "month": 5,
           "day": 4,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:15",
-            "13:30",
-            "15:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-05",
           "month": 5,
           "day": 5,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-06",
           "month": 5,
           "day": 6,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "14:00",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-07",
           "month": 5,
           "day": 7,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "13:30",
-            "15:30",
-            "16:30"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-08",
           "month": 5,
           "day": 8,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-09",
           "month": 5,
           "day": 9,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "16:30"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-10",
           "month": 5,
           "day": 10,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "13:00",
-            "16:30"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-11",
           "month": 5,
           "day": 11,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜90分コース",
+              "times": [
+                "12:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-12",
           "month": 5,
           "day": 12,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-13",
           "month": 5,
           "day": 13,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "15:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-14",
           "month": 5,
           "day": 14,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "15:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-15",
           "month": 5,
           "day": 15,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-16",
           "month": 5,
           "day": 16,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-17",
           "month": 5,
           "day": 17,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-18",
           "month": 5,
           "day": 18,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-19",
           "month": 5,
           "day": 19,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-20",
           "month": 5,
           "day": 20,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "15:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-21",
           "month": 5,
           "day": 21,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-22",
           "month": 5,
           "day": 22,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-23",
           "month": 5,
           "day": 23,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "14:00",
-            "15:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-24",
           "month": 5,
           "day": 24,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-25",
           "month": 5,
           "day": 25,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "14:30",
-            "16:30"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-26",
           "month": 5,
           "day": 26,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-27",
           "month": 5,
           "day": 27,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-28",
           "month": 5,
           "day": 28,
           "dow": "木",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-29",
           "month": 5,
           "day": 29,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "15:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-30",
           "month": 5,
           "day": 30,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-31",
           "month": 5,
           "day": 31,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         }
       ]
     },
@@ -851,398 +694,332 @@
       "is_kaito": false,
       "days": [
         {
+          "date": "2026-05-01",
+          "month": 5,
+          "day": 1,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
           "date": "2026-05-02",
           "month": 5,
           "day": 2,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "15:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-03",
           "month": 5,
           "day": 3,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-04",
           "month": 5,
           "day": 4,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "15:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-05",
           "month": 5,
           "day": 5,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-06",
           "month": 5,
           "day": 6,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-07",
           "month": 5,
           "day": 7,
           "dow": "木",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-08",
           "month": 5,
           "day": 8,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:30",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-09",
           "month": 5,
           "day": 9,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜90分コース",
+              "times": [
+                "12:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-10",
           "month": 5,
           "day": 10,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-11",
           "month": 5,
           "day": 11,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-12",
           "month": 5,
           "day": 12,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "14:00",
-            "15:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-13",
           "month": 5,
           "day": 13,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-14",
           "month": 5,
           "day": 14,
           "dow": "木",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-15",
           "month": 5,
           "day": 15,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "15:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-16",
           "month": 5,
           "day": 16,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:30",
-            "15:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-17",
           "month": 5,
           "day": 17,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-18",
           "month": 5,
           "day": 18,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-19",
           "month": 5,
           "day": 19,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-20",
           "month": 5,
           "day": 20,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:00",
-            "13:20",
-            "15:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-21",
           "month": 5,
           "day": 21,
           "dow": "木",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-22",
           "month": 5,
           "day": 22,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-23",
           "month": 5,
           "day": 23,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "15:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-24",
           "month": 5,
           "day": 24,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-25",
           "month": 5,
           "day": 25,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:30",
-            "12:45",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-26",
           "month": 5,
           "day": 26,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:15",
-            "15:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-27",
           "month": 5,
           "day": 27,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-28",
           "month": 5,
           "day": 28,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:30",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-29",
           "month": 5,
           "day": 29,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-30",
           "month": 5,
           "day": 30,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-31",
           "month": 5,
           "day": 31,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         }
       ]
     },
@@ -1252,391 +1029,353 @@
       "is_kaito": false,
       "days": [
         {
+          "date": "2026-05-01",
+          "month": 5,
+          "day": 1,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
           "date": "2026-05-02",
           "month": 5,
           "day": 2,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-03",
           "month": 5,
           "day": 3,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-04",
           "month": 5,
           "day": 4,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:30",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-05",
           "month": 5,
           "day": 5,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "15:30",
-            "16:30"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-06",
           "month": 5,
           "day": 6,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-07",
           "month": 5,
           "day": 7,
           "dow": "木",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-08",
           "month": 5,
           "day": 8,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "14:00"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "14:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-09",
           "month": 5,
           "day": 9,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-10",
           "month": 5,
           "day": 10,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-11",
           "month": 5,
           "day": 11,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-12",
           "month": 5,
           "day": 12,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜90分コース",
+              "times": [
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-13",
           "month": 5,
           "day": 13,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-14",
           "month": 5,
           "day": 14,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "14:00"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "14:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-15",
           "month": 5,
           "day": 15,
           "dow": "金",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [
-            "14:00",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "10:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-16",
           "month": 5,
           "day": 16,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "14:00",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-17",
           "month": 5,
           "day": 17,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-18",
           "month": 5,
           "day": 18,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-19",
           "month": 5,
           "day": 19,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "14:00",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-20",
           "month": 5,
           "day": 20,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-21",
           "month": 5,
           "day": 21,
           "dow": "木",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-22",
           "month": 5,
           "day": 22,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-23",
           "month": 5,
           "day": 23,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "15:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-24",
           "month": 5,
           "day": 24,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-25",
           "month": 5,
           "day": 25,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:30",
-            "16:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "11:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-26",
           "month": 5,
           "day": 26,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-27",
           "month": 5,
           "day": 27,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:30",
-            "13:30"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-28",
           "month": 5,
           "day": 28,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-29",
           "month": 5,
           "day": 29,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:00",
-            "14:30"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜180分コース",
+              "times": [
+                "14:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-30",
           "month": 5,
           "day": 30,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-31",
           "month": 5,
           "day": 31,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         }
       ]
     },
@@ -1646,404 +1385,385 @@
       "is_kaito": false,
       "days": [
         {
+          "date": "2026-05-01",
+          "month": 5,
+          "day": 1,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
           "date": "2026-05-02",
           "month": 5,
           "day": 2,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜90分コース",
+              "times": [
+                "12:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-03",
           "month": 5,
           "day": 3,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "16:30"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-04",
           "month": 5,
           "day": 4,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-05",
           "month": 5,
           "day": 5,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:00",
-            "13:00",
-            "16:30"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-06",
           "month": 5,
           "day": 6,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-07",
           "month": 5,
           "day": 7,
           "dow": "木",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "10:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-08",
           "month": 5,
           "day": 8,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-09",
           "month": 5,
           "day": 9,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜90分コース",
+              "times": [
+                "12:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-10",
           "month": 5,
           "day": 10,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-11",
           "month": 5,
           "day": 11,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-12",
           "month": 5,
           "day": 12,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "12:00"
+              ]
+            },
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-13",
           "month": 5,
           "day": 13,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "10:30",
-            "16:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜180分コース",
+              "times": [
+                "10:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-14",
           "month": 5,
           "day": 14,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-15",
           "month": 5,
           "day": 15,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-16",
           "month": 5,
           "day": 16,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "13:30",
-            "15:15"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-17",
           "month": 5,
           "day": 17,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "15:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-18",
           "month": 5,
           "day": 18,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-19",
           "month": 5,
           "day": 19,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-20",
           "month": 5,
           "day": 20,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:30",
-            "13:00",
-            "15:00",
-            "16:30"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-21",
           "month": 5,
           "day": 21,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:30"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "12:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-22",
           "month": 5,
           "day": 22,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-23",
           "month": 5,
           "day": 23,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "16:00",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-24",
           "month": 5,
           "day": 24,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "13:30",
-            "15:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-25",
           "month": 5,
           "day": 25,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-26",
           "month": 5,
           "day": 26,
           "dow": "火",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [
-            "14:00"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "14:00"
+              ]
+            },
+            {
+              "label": "60分〜150分コース",
+              "times": [
+                "10:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-27",
           "month": 5,
           "day": 27,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:00",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜150分コース",
+              "times": [
+                "11:00"
+              ]
+            },
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-28",
           "month": 5,
           "day": 28,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-29",
           "month": 5,
           "day": 29,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-30",
           "month": 5,
           "day": 30,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "15:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-31",
           "month": 5,
           "day": 31,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "15:00",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         }
       ]
     },
@@ -2053,397 +1773,381 @@
       "is_kaito": false,
       "days": [
         {
+          "date": "2026-05-01",
+          "month": 5,
+          "day": 1,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
           "date": "2026-05-02",
           "month": 5,
           "day": 2,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-03",
           "month": 5,
           "day": 3,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "15:00",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-04",
           "month": 5,
           "day": 4,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-05",
           "month": 5,
           "day": 5,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-06",
           "month": 5,
           "day": 6,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "14:00",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-07",
           "month": 5,
           "day": 7,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "14:30"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜180分コース",
+              "times": [
+                "14:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-08",
           "month": 5,
           "day": 8,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-09",
           "month": 5,
           "day": 9,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-10",
           "month": 5,
           "day": 10,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-11",
           "month": 5,
           "day": 11,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:30",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜150分コース",
+              "times": [
+                "11:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-12",
           "month": 5,
           "day": 12,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-13",
           "month": 5,
           "day": 13,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "14:00"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "14:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-14",
           "month": 5,
           "day": 14,
           "dow": "木",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-15",
           "month": 5,
           "day": 15,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "15:00"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜150分コース",
+              "times": [
+                "15:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-16",
           "month": 5,
           "day": 16,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-17",
           "month": 5,
           "day": 17,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-18",
           "month": 5,
           "day": 18,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:00",
-            "15:30",
-            "17:30"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-19",
           "month": 5,
           "day": 19,
           "dow": "火",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-20",
           "month": 5,
           "day": 20,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:30"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "12:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-21",
           "month": 5,
           "day": 21,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "14:30",
-            "15:45"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-22",
           "month": 5,
           "day": 22,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "11:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-23",
           "month": 5,
           "day": 23,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-24",
           "month": 5,
           "day": 24,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-25",
           "month": 5,
           "day": 25,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "13:30",
-            "16:30"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-26",
           "month": 5,
           "day": 26,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-27",
           "month": 5,
           "day": 27,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-28",
           "month": 5,
           "day": 28,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "11:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "11:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-29",
           "month": 5,
           "day": 29,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "12:00"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "12:00"
+              ]
+            },
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-30",
           "month": 5,
           "day": 30,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:30",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-31",
           "month": 5,
           "day": 31,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         }
       ]
     },
@@ -2453,334 +2157,435 @@
       "is_kaito": false,
       "days": [
         {
+          "date": "2026-05-01",
+          "month": 5,
+          "day": 1,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
           "date": "2026-05-02",
           "month": 5,
           "day": 2,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-03",
           "month": 5,
           "day": 3,
           "dow": "日",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-04",
           "month": 5,
           "day": 4,
           "dow": "月",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-05",
           "month": 5,
           "day": 5,
           "dow": "火",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-06",
           "month": 5,
           "day": 6,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-07",
           "month": 5,
           "day": 7,
           "dow": "木",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-08",
           "month": 5,
           "day": 8,
           "dow": "金",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-09",
           "month": 5,
           "day": 9,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-10",
           "month": 5,
           "day": 10,
           "dow": "日",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-11",
           "month": 5,
           "day": 11,
           "dow": "月",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-12",
           "month": 5,
           "day": 12,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-13",
           "month": 5,
           "day": 13,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-14",
           "month": 5,
           "day": 14,
           "dow": "木",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-15",
           "month": 5,
           "day": 15,
           "dow": "金",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-16",
           "month": 5,
           "day": 16,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-17",
           "month": 5,
           "day": 17,
           "dow": "日",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-18",
           "month": 5,
           "day": 18,
           "dow": "月",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-19",
           "month": 5,
           "day": 19,
           "dow": "火",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-20",
           "month": 5,
           "day": 20,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-21",
           "month": 5,
           "day": 21,
           "dow": "木",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-22",
           "month": 5,
           "day": 22,
           "dow": "金",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-23",
           "month": 5,
           "day": 23,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-24",
           "month": 5,
           "day": 24,
           "dow": "日",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-25",
           "month": 5,
           "day": 25,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-26",
           "month": 5,
           "day": 26,
           "dow": "火",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-27",
           "month": 5,
           "day": 27,
           "dow": "水",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-28",
           "month": 5,
           "day": 28,
           "dow": "木",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-29",
           "month": 5,
           "day": 29,
           "dow": "金",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-30",
           "month": 5,
           "day": 30,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-31",
           "month": 5,
           "day": 31,
           "dow": "日",
-          "holiday": false,
-          "open": "09:30",
-          "close": "17:30",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2790,1165 +2595,943 @@
       "is_kaito": false,
       "days": [
         {
+          "date": "2026-05-01",
+          "month": 5,
+          "day": 1,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
           "date": "2026-05-02",
           "month": 5,
           "day": 2,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-03",
           "month": 5,
           "day": 3,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "11:30",
-            "13:00",
-            "15:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-04",
           "month": 5,
           "day": 4,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-05",
           "month": 5,
           "day": 5,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-06",
           "month": 5,
           "day": 6,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30",
-            "15:00"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜150分コース",
+              "times": [
+                "15:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-07",
           "month": 5,
           "day": 7,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:30",
-            "13:50"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-08",
           "month": 5,
           "day": 8,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-09",
           "month": 5,
           "day": 9,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-10",
           "month": 5,
           "day": 10,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "11:50",
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-11",
           "month": 5,
           "day": 11,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-12",
           "month": 5,
           "day": 12,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "14:30"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-13",
           "month": 5,
           "day": 13,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-14",
           "month": 5,
           "day": 14,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00"
+              ]
+            },
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-15",
           "month": 5,
           "day": 15,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-16",
           "month": 5,
           "day": 16,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-17",
           "month": 5,
           "day": 17,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "13:30",
-            "15:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-18",
           "month": 5,
           "day": 18,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜90分コース",
+              "times": [
+                "12:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-19",
           "month": 5,
           "day": 19,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-20",
           "month": 5,
           "day": 20,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-21",
           "month": 5,
           "day": 21,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00"
+              ]
+            },
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-22",
           "month": 5,
           "day": 22,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-23",
           "month": 5,
           "day": 23,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "09:30"
+              ]
+            },
+            {
+              "label": "60分〜90分コース",
+              "times": [
+                "10:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-24",
           "month": 5,
           "day": 24,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:30",
-            "14:30"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜180分コース",
+              "times": [
+                "14:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-25",
           "month": 5,
           "day": 25,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-26",
           "month": 5,
           "day": 26,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "10:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-27",
           "month": 5,
           "day": 27,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-28",
           "month": 5,
           "day": 28,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-29",
           "month": 5,
           "day": 29,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-30",
           "month": 5,
           "day": 30,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-31",
           "month": 5,
           "day": 31,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "14:00",
-            "15:20",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         }
       ]
     },
-    "saki": {
+    "SAKI": {
       "display": "さき",
       "store": "東京",
       "is_kaito": false,
       "days": [
         {
+          "date": "2026-05-01",
+          "month": 5,
+          "day": 1,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
           "date": "2026-05-02",
           "month": 5,
           "day": 2,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-03",
           "month": 5,
           "day": 3,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-04",
           "month": 5,
           "day": 4,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30",
-            "14:30",
-            "16:30"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-05",
           "month": 5,
           "day": 5,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-06",
           "month": 5,
           "day": 6,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-07",
           "month": 5,
           "day": 7,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-08",
           "month": 5,
           "day": 8,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30",
-            "15:00"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-09",
           "month": 5,
           "day": 9,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30",
-            "15:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-10",
           "month": 5,
           "day": 10,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-11",
           "month": 5,
           "day": 11,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "11:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-12",
           "month": 5,
           "day": 12,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-13",
           "month": 5,
           "day": 13,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-14",
           "month": 5,
           "day": 14,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-15",
           "month": 5,
           "day": 15,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "11:30",
-            "15:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-16",
           "month": 5,
           "day": 16,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-17",
           "month": 5,
           "day": 17,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-18",
           "month": 5,
           "day": 18,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-19",
           "month": 5,
           "day": 19,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "14:50"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-20",
           "month": 5,
           "day": 20,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-21",
           "month": 5,
           "day": 21,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-22",
           "month": 5,
           "day": 22,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "14:00",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-23",
           "month": 5,
           "day": 23,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "15:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-24",
           "month": 5,
           "day": 24,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-25",
           "month": 5,
           "day": 25,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-26",
           "month": 5,
           "day": 26,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-27",
           "month": 5,
           "day": 27,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-28",
           "month": 5,
           "day": 28,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30",
-            "15:00"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-29",
           "month": 5,
           "day": 29,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "11:30",
-            "15:00"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-30",
           "month": 5,
           "day": 30,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-31",
           "month": 5,
           "day": 31,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         }
       ]
     },
-    "saeko": {
+    "SAEKO": {
       "display": "さえこ",
       "store": "東京",
       "is_kaito": false,
       "days": [
         {
+          "date": "2026-05-01",
+          "month": 5,
+          "day": 1,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
           "date": "2026-05-02",
           "month": 5,
           "day": 2,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "14:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-03",
           "month": 5,
           "day": 3,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-04",
           "month": 5,
           "day": 4,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-05",
           "month": 5,
           "day": 5,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-06",
           "month": 5,
           "day": 6,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-07",
           "month": 5,
           "day": 7,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-08",
           "month": 5,
           "day": 8,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-09",
           "month": 5,
           "day": 9,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:30",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-10",
           "month": 5,
           "day": 10,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-11",
           "month": 5,
           "day": 11,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-12",
           "month": 5,
           "day": 12,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-13",
           "month": 5,
           "day": 13,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-14",
           "month": 5,
           "day": 14,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-15",
           "month": 5,
           "day": 15,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-16",
           "month": 5,
           "day": 16,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "11:20",
-            "12:50",
-            "16:30"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-17",
           "month": 5,
           "day": 17,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-18",
           "month": 5,
           "day": 18,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-19",
           "month": 5,
           "day": 19,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-20",
           "month": 5,
           "day": 20,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-21",
           "month": 5,
           "day": 21,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-22",
           "month": 5,
           "day": 22,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-23",
           "month": 5,
           "day": 23,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "14:00",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-24",
           "month": 5,
           "day": 24,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "14:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-25",
           "month": 5,
           "day": 25,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-26",
           "month": 5,
           "day": 26,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-27",
           "month": 5,
           "day": 27,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-28",
           "month": 5,
           "day": 28,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-29",
           "month": 5,
           "day": 29,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-30",
           "month": 5,
           "day": 30,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:20",
-            "15:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-31",
           "month": 5,
           "day": 31,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         }
       ]
     },
@@ -3958,383 +3541,431 @@
       "is_kaito": false,
       "days": [
         {
+          "date": "2026-05-01",
+          "month": 5,
+          "day": 1,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
           "date": "2026-05-02",
           "month": 5,
           "day": 2,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-03",
           "month": 5,
           "day": 3,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-04",
           "month": 5,
           "day": 4,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "11:30",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-05",
           "month": 5,
           "day": 5,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "10:20",
-            "14:00"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "14:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-06",
           "month": 5,
           "day": 6,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-07",
           "month": 5,
           "day": 7,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "11:20",
-            "13:30",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-08",
           "month": 5,
           "day": 8,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "15:20"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜180分コース",
+              "times": [
+                "12:00"
+              ]
+            },
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-09",
           "month": 5,
           "day": 9,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-10",
           "month": 5,
           "day": 10,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:00",
-            "15:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-11",
           "month": 5,
           "day": 11,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-12",
           "month": 5,
           "day": 12,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-13",
           "month": 5,
           "day": 13,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "12:00"
+              ]
+            },
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-14",
           "month": 5,
           "day": 14,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-15",
           "month": 5,
           "day": 15,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00"
+              ]
+            },
+            {
+              "label": "60分〜150分コース",
+              "times": [
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-16",
           "month": 5,
           "day": 16,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-17",
           "month": 5,
           "day": 17,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "15:30",
-            "16:50"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-18",
           "month": 5,
           "day": 18,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "14:00"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜180分コース",
+              "times": [
+                "14:00"
+              ]
+            },
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "10:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-19",
           "month": 5,
           "day": 19,
           "dow": "火",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-20",
           "month": 5,
           "day": 20,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:30",
-            "14:30"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜180分コース",
+              "times": [
+                "14:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-21",
           "month": 5,
           "day": 21,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-22",
           "month": 5,
           "day": 22,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "15:20"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00"
+              ]
+            },
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            },
+            {
+              "label": "60分〜90分コース",
+              "times": [
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-23",
           "month": 5,
           "day": 23,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-24",
           "month": 5,
           "day": 24,
           "dow": "日",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "13:30"
-          ],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-25",
           "month": 5,
           "day": 25,
           "dow": "月",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00"
-          ],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "12:00"
+              ]
+            },
+            {
+              "label": "60分〜90分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-26",
           "month": 5,
           "day": 26,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-27",
           "month": 5,
           "day": 27,
           "dow": "水",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-28",
           "month": 5,
           "day": 28,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "14:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-29",
           "month": 5,
           "day": 29,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "11:30",
-            "15:20"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "11:30"
+              ]
+            },
+            {
+              "label": "60分〜90分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-30",
           "month": 5,
           "day": 30,
           "dow": "土",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-31",
           "month": 5,
           "day": 31,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         }
       ]
     },
@@ -4344,370 +3975,424 @@
       "is_kaito": false,
       "days": [
         {
+          "date": "2026-05-01",
+          "month": 5,
+          "day": 1,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
           "date": "2026-05-02",
           "month": 5,
           "day": 2,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:00",
-            "16:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-03",
           "month": 5,
           "day": 3,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-04",
           "month": 5,
           "day": 4,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-05",
           "month": 5,
           "day": 5,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:30",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-06",
           "month": 5,
           "day": 6,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "14:30"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜180分コース",
+              "times": [
+                "14:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-07",
           "month": 5,
           "day": 7,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "10:30",
-            "14:30"
-          ],
-          "full_empty": false
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜180分コース",
+              "times": [
+                "14:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-08",
           "month": 5,
           "day": 8,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00"
+              ]
+            },
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-09",
           "month": 5,
           "day": 9,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:00",
-            "15:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-10",
           "month": 5,
           "day": 10,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-11",
           "month": 5,
           "day": 11,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-12",
           "month": 5,
           "day": 12,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:30"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "12:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-13",
           "month": 5,
           "day": 13,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "11:20"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "11:30"
+              ]
+            },
+            {
+              "label": "60分〜150分コース",
+              "times": [
+                "15:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-14",
           "month": 5,
           "day": 14,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-15",
           "month": 5,
           "day": 15,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-16",
           "month": 5,
           "day": 16,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "11:20",
-            "14:00",
-            "17:00"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-17",
           "month": 5,
           "day": 17,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-18",
           "month": 5,
           "day": 18,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-19",
           "month": 5,
           "day": 19,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:00"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-20",
           "month": 5,
           "day": 20,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "15:00"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00"
+              ]
+            },
+            {
+              "label": "60分〜150分コース",
+              "times": [
+                "15:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-21",
           "month": 5,
           "day": 21,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-22",
           "month": 5,
           "day": 22,
           "dow": "金",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-23",
           "month": 5,
           "day": 23,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-24",
           "month": 5,
           "day": 24,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-25",
           "month": 5,
           "day": 25,
           "dow": "月",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-26",
           "month": 5,
           "day": 26,
           "dow": "火",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "15:30"
-          ],
-          "full_empty": false
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00"
+              ]
+            },
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-27",
           "month": 5,
           "day": 27,
           "dow": "水",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "13:00"
-          ],
-          "full_empty": false
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:00"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-28",
           "month": 5,
           "day": 28,
           "dow": "木",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": true
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-29",
           "month": 5,
           "day": 29,
           "dow": "金",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
         },
         {
           "date": "2026-05-30",
           "month": 5,
           "day": 30,
           "dow": "土",
-          "holiday": false,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [
-            "12:30"
-          ],
-          "full_empty": false
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "12:30"
+              ]
+            }
+          ]
         },
         {
           "date": "2026-05-31",
           "month": 5,
           "day": 31,
           "dow": "日",
-          "holiday": true,
-          "open": "10:00",
-          "close": "17:00",
-          "appt_ends": [],
-          "full_empty": false
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
         }
       ]
     }
