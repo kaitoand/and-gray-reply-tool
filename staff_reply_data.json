@@ -1,0 +1,3992 @@
+{
+  "generated_at": "2026-05-01T19:38:33.377333+09:00",
+  "staff": {
+    "KAITO": {
+      "display": "かいと",
+      "store": "船橋",
+      "days": [
+        {
+          "date": "2026-05-01",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:00",
+            "13:30",
+            "14:30",
+            "16:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-02",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-03",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:30",
+            "13:00",
+            "13:30",
+            "14:30",
+            "15:00",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-04",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "14:00",
+            "14:30",
+            "16:00",
+            "16:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-05",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "14:30",
+            "15:30",
+            "16:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-06",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-07",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "14:00",
+            "14:30",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-08",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "14:30",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-09",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-10",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:00",
+            "11:30",
+            "13:00",
+            "16:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-11",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "14:00",
+            "15:30",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-12",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-13",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-14",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "14:30",
+            "15:30",
+            "16:30",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-15",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "14:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-16",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-17",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:30",
+            "13:30",
+            "14:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-18",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:30",
+            "12:00",
+            "15:00",
+            "16:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-19",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:00",
+            "13:00",
+            "14:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-20",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-21",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "14:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-22",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "12:30",
+            "15:00",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-23",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-24",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:00",
+            "13:30",
+            "14:00",
+            "15:00",
+            "16:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-25",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-26",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-27",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:00",
+            "14:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-28",
+          "dow": "木",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-29",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:00",
+            "13:30",
+            "15:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-30",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        }
+      ]
+    },
+    "AKI": {
+      "display": "あき",
+      "store": "船橋",
+      "days": [
+        {
+          "date": "2026-05-01",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "15:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-02",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-03",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-04",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:15",
+            "13:30",
+            "15:30",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-05",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-06",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "14:00",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-07",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "13:30",
+            "15:30",
+            "16:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-08",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-09",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "16:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-10",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "13:00",
+            "16:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-11",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-12",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-13",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "15:30",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-14",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "15:30",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-15",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-16",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-17",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-18",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-19",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-20",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "15:30",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-21",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-22",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-23",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "14:00",
+            "15:30",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-24",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-25",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "14:30",
+            "16:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-26",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-27",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-28",
+          "dow": "木",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-29",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "15:30",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-30",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        }
+      ]
+    },
+    "MAKOTO": {
+      "display": "まこと",
+      "store": "船橋",
+      "days": [
+        {
+          "date": "2026-05-01",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:30",
+            "16:00",
+            "16:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-02",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "15:30",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-03",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-04",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "15:30",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-05",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-06",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-07",
+          "dow": "木",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-08",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:30",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-09",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-10",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-11",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-12",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "14:00",
+            "15:30",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-13",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-14",
+          "dow": "木",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-15",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "15:30",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-16",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:30",
+            "15:30",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-17",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-18",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-19",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-20",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:00",
+            "13:20",
+            "15:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-21",
+          "dow": "木",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-22",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-23",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "15:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-24",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-25",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:30",
+            "12:45",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-26",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:15",
+            "15:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-27",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-28",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:30",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-29",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-30",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        }
+      ]
+    },
+    "KAZUMI": {
+      "display": "かずみ",
+      "store": "船橋",
+      "days": [
+        {
+          "date": "2026-05-01",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "15:30",
+            "16:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-02",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-03",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-04",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:30",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-05",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "15:30",
+            "16:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-06",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-07",
+          "dow": "木",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-08",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "14:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-09",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-10",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-11",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-12",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-13",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-14",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "14:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-15",
+          "dow": "金",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [
+            "14:00",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-16",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "14:00",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-17",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-18",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-19",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "14:00",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-20",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-21",
+          "dow": "木",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-22",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-23",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "15:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-24",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-25",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:30",
+            "16:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-26",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-27",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:30",
+            "13:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-28",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-29",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:00",
+            "14:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-30",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        }
+      ]
+    },
+    "MAHO": {
+      "display": "まほ",
+      "store": "船橋",
+      "days": [
+        {
+          "date": "2026-05-01",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-02",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-03",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "16:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-04",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-05",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:00",
+            "13:00",
+            "16:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-06",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-07",
+          "dow": "木",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-08",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-09",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-10",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-11",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-12",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-13",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "10:30",
+            "16:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-14",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-15",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-16",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "13:30",
+            "15:15"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-17",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "15:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-18",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-19",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-20",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:30",
+            "13:00",
+            "15:00",
+            "16:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-21",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-22",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-23",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "16:00",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-24",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "13:30",
+            "15:30",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-25",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-26",
+          "dow": "火",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [
+            "14:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-27",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:00",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-28",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-29",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-30",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "15:30",
+            "17:30"
+          ],
+          "full_empty": false
+        }
+      ]
+    },
+    "AYAKA": {
+      "display": "あやか",
+      "store": "船橋",
+      "days": [
+        {
+          "date": "2026-05-01",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-02",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-03",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "15:00",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-04",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-05",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-06",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "14:00",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-07",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "14:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-08",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-09",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-10",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-11",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:30",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-12",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-13",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "14:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-14",
+          "dow": "木",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-15",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "15:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-16",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-17",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-18",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:00",
+            "15:30",
+            "17:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-19",
+          "dow": "火",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-20",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-21",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "14:30",
+            "15:45"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-22",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-23",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-24",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-25",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "13:30",
+            "16:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-26",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-27",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-28",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "11:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-29",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "12:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-30",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:30",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        }
+      ]
+    },
+    "NOZOMI": {
+      "display": "のぞみ",
+      "store": "船橋",
+      "days": [
+        {
+          "date": "2026-05-01",
+          "dow": "金",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-02",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-03",
+          "dow": "日",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-04",
+          "dow": "月",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-05",
+          "dow": "火",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-06",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-07",
+          "dow": "木",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-08",
+          "dow": "金",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-09",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-10",
+          "dow": "日",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-11",
+          "dow": "月",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-12",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-13",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-14",
+          "dow": "木",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-15",
+          "dow": "金",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-16",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-17",
+          "dow": "日",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-18",
+          "dow": "月",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-19",
+          "dow": "火",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-20",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-21",
+          "dow": "木",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-22",
+          "dow": "金",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-23",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-24",
+          "dow": "日",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-25",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-26",
+          "dow": "火",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-27",
+          "dow": "水",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-28",
+          "dow": "木",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-29",
+          "dow": "金",
+          "holiday": false,
+          "open": "09:30",
+          "close": "17:30",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-30",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        }
+      ]
+    },
+    "YUKI": {
+      "display": "ゆき",
+      "store": "東京",
+      "days": [
+        {
+          "date": "2026-05-01",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-02",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-03",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "11:30",
+            "13:00",
+            "15:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-04",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-05",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-06",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30",
+            "15:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-07",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:30",
+            "13:50"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-08",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-09",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-10",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "11:50",
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-11",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-12",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "14:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-13",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-14",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-15",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-16",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-17",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "13:30",
+            "15:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-18",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-19",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-20",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-21",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-22",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-23",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-24",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:30",
+            "14:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-25",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-26",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-27",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-28",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-29",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-30",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        }
+      ]
+    },
+    "saki": {
+      "display": "さき",
+      "store": "東京",
+      "days": [
+        {
+          "date": "2026-05-01",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "10:40",
+            "13:30",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-02",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-03",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-04",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30",
+            "14:30",
+            "16:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-05",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-06",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-07",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-08",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30",
+            "15:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-09",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30",
+            "15:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-10",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-11",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "11:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-12",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-13",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-14",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-15",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "11:30",
+            "15:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-16",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-17",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-18",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-19",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "14:50"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-20",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-21",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-22",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "14:00",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-23",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "15:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-24",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-25",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-26",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-27",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-28",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30",
+            "15:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-29",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "11:30",
+            "15:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-30",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        }
+      ]
+    },
+    "saeko": {
+      "display": "さえこ",
+      "store": "東京",
+      "days": [
+        {
+          "date": "2026-05-01",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:30",
+            "14:30",
+            "16:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-02",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "14:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-03",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-04",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-05",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-06",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-07",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-08",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-09",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:30",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-10",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-11",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-12",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-13",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-14",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-15",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-16",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "11:20",
+            "12:50",
+            "16:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-17",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-18",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-19",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-20",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-21",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-22",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-23",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "14:00",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-24",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "14:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-25",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-26",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-27",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-28",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-29",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-30",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:20",
+            "15:30",
+            "17:00"
+          ],
+          "full_empty": false
+        }
+      ]
+    },
+    "MAKIKO": {
+      "display": "まきこ",
+      "store": "東京",
+      "days": [
+        {
+          "date": "2026-05-01",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "14:00",
+            "14:20",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-02",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-03",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-04",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "11:30",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-05",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "10:20",
+            "14:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-06",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-07",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "11:20",
+            "13:30",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-08",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "15:20"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-09",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-10",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:00",
+            "15:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-11",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-12",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-13",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-14",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-15",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-16",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-17",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "15:30",
+            "16:50"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-18",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "14:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-19",
+          "dow": "火",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-20",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:30",
+            "14:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-21",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-22",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "15:20"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-23",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-24",
+          "dow": "日",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "13:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-25",
+          "dow": "月",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-26",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-27",
+          "dow": "水",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-28",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "14:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-29",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "11:30",
+            "15:20"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-30",
+          "dow": "土",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        }
+      ]
+    },
+    "AOI": {
+      "display": "あおい",
+      "store": "東京",
+      "days": [
+        {
+          "date": "2026-05-01",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-02",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:00",
+            "16:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-03",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-04",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-05",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:30",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-06",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "14:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-07",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "10:30",
+            "14:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-08",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-09",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:00",
+            "15:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-10",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-11",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-12",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-13",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "11:20"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-14",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-15",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-16",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "11:20",
+            "14:00",
+            "17:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-17",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-18",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-19",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-20",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "15:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-21",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-22",
+          "dow": "金",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-23",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-24",
+          "dow": "日",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-25",
+          "dow": "月",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-26",
+          "dow": "火",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "15:30"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-27",
+          "dow": "水",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "13:00"
+          ],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-28",
+          "dow": "木",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": true
+        },
+        {
+          "date": "2026-05-29",
+          "dow": "金",
+          "holiday": true,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [],
+          "full_empty": false
+        },
+        {
+          "date": "2026-05-30",
+          "dow": "土",
+          "holiday": false,
+          "open": "10:00",
+          "close": "17:00",
+          "appt_ends": [
+            "12:30"
+          ],
+          "full_empty": false
+        }
+      ]
+    }
+  }
+}
