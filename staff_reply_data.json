@@ -3,7 +3,7 @@
     "year": 2026,
     "month": 5,
     "today": "2026-05-02",
-    "generated_at": "2026-05-02T15:11:06.775808+09:00"
+    "generated_at": "2026-05-02T15:26:21.235246+09:00"
   },
   "staff": {
     "KAITO": {
@@ -2780,15 +2780,8 @@
           "day": 23,
           "dow": "火",
           "dow_idx": 2,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜120分コース",
-              "times": [
-                "13:30"
-              ]
-            }
-          ]
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-06-24",
