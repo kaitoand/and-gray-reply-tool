@@ -3,7 +3,7 @@
     "year": 2026,
     "month": 5,
     "today": "2026-05-14",
-    "generated_at": "2026-05-14T15:53:58.835649+09:00"
+    "generated_at": "2026-05-14T16:09:17.327640+09:00"
   },
   "staff": {
     "KAITO": {
@@ -3273,15 +3273,8 @@
           "day": 23,
           "dow": "土",
           "dow_idx": 6,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜120分コース",
-              "times": [
-                "15:30"
-              ]
-            }
-          ]
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-05-24",
@@ -5521,15 +5514,8 @@
           "day": 29,
           "dow": "月",
           "dow_idx": 1,
-          "status": "available",
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "14:00"
-              ]
-            }
-          ]
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-06-30",
