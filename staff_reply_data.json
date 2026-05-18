@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 5,
-    "today": "2026-05-18",
-    "generated_at": "2026-05-18T23:45:48.918576+09:00"
+    "today": "2026-05-19",
+    "generated_at": "2026-05-19T00:01:15.386272+09:00"
   },
   "staff": {
     "KAITO": {
@@ -170,7 +170,7 @@
           "day": 18,
           "dow": "月",
           "dow_idx": 1,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -1342,7 +1342,7 @@
           "day": 18,
           "dow": "月",
           "dow_idx": 1,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -2212,7 +2212,7 @@
           "day": 18,
           "dow": "月",
           "dow_idx": 1,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -3159,7 +3159,7 @@
           "day": 18,
           "dow": "月",
           "dow_idx": 1,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -4105,7 +4105,7 @@
           "day": 18,
           "dow": "月",
           "dow_idx": 1,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -4987,7 +4987,7 @@
           "day": 18,
           "dow": "月",
           "dow_idx": 1,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -6003,16 +6003,8 @@
           "day": 18,
           "dow": "月",
           "dow_idx": 1,
-          "status": "available",
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "10:00",
-                "13:30"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-05-19",
@@ -7222,7 +7214,7 @@
           "day": 18,
           "dow": "月",
           "dow_idx": 1,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -8352,15 +8344,8 @@
           "day": 18,
           "dow": "月",
           "dow_idx": 1,
-          "status": "available",
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "13:30"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-05-19",
@@ -9553,15 +9538,8 @@
           "day": 18,
           "dow": "月",
           "dow_idx": 1,
-          "status": "available",
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "13:30"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-05-19",
@@ -10645,15 +10623,8 @@
           "day": 18,
           "dow": "月",
           "dow_idx": 1,
-          "status": "available",
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "13:30"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-05-19",
@@ -11809,7 +11780,7 @@
           "day": 18,
           "dow": "月",
           "dow_idx": 1,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
