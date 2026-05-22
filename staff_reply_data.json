@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 5,
-    "today": "2026-05-22",
-    "generated_at": "2026-05-22T23:44:58.223934+09:00"
+    "today": "2026-05-23",
+    "generated_at": "2026-05-23T00:00:11.616985+09:00"
   },
   "staff": {
     "KAITO": {
@@ -206,7 +206,7 @@
           "day": 22,
           "dow": "金",
           "dow_idx": 5,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -1327,7 +1327,7 @@
           "day": 22,
           "dow": "金",
           "dow_idx": 5,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -2190,15 +2190,8 @@
           "day": 22,
           "dow": "金",
           "dow_idx": 5,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜120分コース",
-              "times": [
-                "15:30"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-05-23",
@@ -3129,7 +3122,7 @@
           "day": 22,
           "dow": "金",
           "dow_idx": 5,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -4040,7 +4033,7 @@
           "day": 22,
           "dow": "金",
           "dow_idx": 5,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -4902,15 +4895,8 @@
           "day": 22,
           "dow": "金",
           "dow_idx": 5,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜150分コース",
-              "times": [
-                "12:30"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-05-23",
@@ -5863,16 +5849,8 @@
           "day": 22,
           "dow": "金",
           "dow_idx": 5,
-          "status": "available",
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "10:00",
-                "13:30"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-05-23",
@@ -7058,7 +7036,7 @@
           "day": 22,
           "dow": "金",
           "dow_idx": 5,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -8151,7 +8129,7 @@
           "day": 22,
           "dow": "金",
           "dow_idx": 5,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -9321,7 +9299,7 @@
           "day": 22,
           "dow": "金",
           "dow_idx": 5,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -10389,27 +10367,8 @@
           "day": 22,
           "dow": "金",
           "dow_idx": 5,
-          "status": "available",
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "10:00"
-              ]
-            },
-            {
-              "label": "60分〜120分コース",
-              "times": [
-                "15:30"
-              ]
-            },
-            {
-              "label": "60分〜90分コース",
-              "times": [
-                "13:30"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-05-23",
@@ -11524,21 +11483,8 @@
           "day": 22,
           "dow": "金",
           "dow_idx": 5,
-          "status": "available",
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "10:00"
-              ]
-            },
-            {
-              "label": "60分〜120分コース",
-              "times": [
-                "15:30"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-05-23",
