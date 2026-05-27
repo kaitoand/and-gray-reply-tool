@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 5,
-    "today": "2026-05-27",
-    "generated_at": "2026-05-27T23:47:44.112271+09:00"
+    "today": "2026-05-28",
+    "generated_at": "2026-05-28T00:02:57.016671+09:00"
   },
   "staff": {
     "KAITO": {
@@ -251,15 +251,8 @@
           "day": 27,
           "dow": "水",
           "dow_idx": 3,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜150分コース",
-              "times": [
-                "15:00"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-05-28",
@@ -1374,7 +1367,7 @@
           "day": 27,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -2223,7 +2216,7 @@
           "day": 27,
           "dow": "水",
           "dow_idx": 3,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -3127,7 +3120,7 @@
           "day": 27,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -4004,15 +3997,8 @@
           "day": 27,
           "dow": "水",
           "dow_idx": 3,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜150分コース",
-              "times": [
-                "11:00"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-05-28",
@@ -4853,7 +4839,7 @@
           "day": 27,
           "dow": "水",
           "dow_idx": 3,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -5764,16 +5750,8 @@
           "day": 27,
           "dow": "水",
           "dow_idx": 3,
-          "status": "available",
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "10:00",
-                "13:30"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-05-28",
@@ -6940,7 +6918,7 @@
           "day": 27,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -8009,7 +7987,7 @@
           "day": 27,
           "dow": "水",
           "dow_idx": 3,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -9155,7 +9133,7 @@
           "day": 27,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -10205,7 +10183,7 @@
           "day": 27,
           "dow": "水",
           "dow_idx": 3,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -11285,7 +11263,7 @@
           "day": 27,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
