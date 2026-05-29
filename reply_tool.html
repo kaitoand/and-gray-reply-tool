@@ -50,6 +50,10 @@
   .spinner{width:24px;height:24px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 12px}
   @keyframes spin{to{transform:rotate(360deg)}}
   hr.sep{border:none;border-top:1px solid var(--border);margin:24px 0}
+  .mode-toggle{display:flex;background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:4px;gap:4px;margin-bottom:20px}
+  .mode-btn{flex:1;background:transparent;color:var(--text-dim);border:none;border-radius:7px;padding:11px 8px;font-size:13px;font-family:'Noto Sans JP',sans-serif;font-weight:500;cursor:pointer;transition:all .15s;-webkit-tap-highlight-color:transparent}
+  .mode-btn.active{background:var(--accent);color:#0d0d0d;font-weight:700}
+  .hidden{display:none!important}
 </style>
 </head>
 <body>
@@ -58,8 +62,26 @@
   <p id="data-ts">データ読み込み中...</p>
 </header>
 <main>
-  <div class="section-label">担当スタッフ</div>
-  <div class="card"><select id="sel-staff"><option value="">選択してください</option></select></div>
+  <div class="mode-toggle">
+    <button type="button" class="mode-btn active" data-mode="staff" onclick="setMode('staff')">担当目線で返信</button>
+    <button type="button" class="mode-btn" data-mode="anon" onclick="setMode('anon')">空き枠だけ案内</button>
+  </div>
+
+  <div id="staff-section">
+    <div class="section-label">担当スタッフ</div>
+    <div class="card"><select id="sel-staff"><option value="">選択してください</option></select></div>
+  </div>
+
+  <div id="store-section" class="hidden">
+    <div class="section-label">店舗</div>
+    <div class="card">
+      <select id="sel-store">
+        <option value="both" selected>両方</option>
+        <option value="船橋">船橋店のみ</option>
+        <option value="東京">東京店のみ</option>
+      </select>
+    </div>
+  </div>
 
   <div class="section-label">お客様のメニュー</div>
   <div class="card">
@@ -97,6 +119,15 @@
 
 <script>
 let staffData = null;
+let currentMode = 'staff'; // 'staff' = 担当目線 / 'anon' = 空き枠だけ案内（名前なし）
+
+function setMode(mode){
+  currentMode = mode;
+  document.querySelectorAll('.mode-btn').forEach(b=>b.classList.toggle('active', b.dataset.mode===mode));
+  document.getElementById('staff-section').classList.toggle('hidden', mode!=='staff');
+  document.getElementById('store-section').classList.toggle('hidden', mode!=='anon');
+  document.getElementById('result-area').style.display = 'none';
+}
 
 const MENU_LABELS = {
   60:  ['60分〜90分コース','60分〜120分コース','60分〜150分コース','60分〜180分コース','なんでも'],
@@ -170,13 +201,19 @@ function fmt(d){
 
 function generate(){
   if(!staffData){ showError('データが読み込まれていません。'); return; }
-  const staffKey = document.getElementById('sel-staff').value;
-  const menuMin  = parseInt(document.getElementById('sel-menu').value);
-  const from     = document.getElementById('date-from').value;
-  const to       = document.getElementById('date-to').value;
-  if(!staffKey){ showError('担当スタッフを選択してください。'); return; }
+  const menuMin = parseInt(document.getElementById('sel-menu').value);
+  const from    = document.getElementById('date-from').value;
+  const to      = document.getElementById('date-to').value;
   if(!from||!to){ showError('表示期間を入力してください。'); return; }
   if(from>to){ showError('開始日が終了日より後になっています。'); return; }
+
+  let staffKey = null, store = null;
+  if(currentMode === 'staff'){
+    staffKey = document.getElementById('sel-staff').value;
+    if(!staffKey){ showError('担当スタッフを選択してください。'); return; }
+  } else {
+    store = document.getElementById('sel-store').value;
+  }
 
   const excluded = new Set([...document.querySelectorAll('.staff-chip.excluded')].map(c=>c.dataset.key));
   EXCLUDE_FROM_REPLY.forEach(k=>excluded.add(k));
@@ -185,7 +222,12 @@ function generate(){
   document.getElementById('result-area').style.display = 'none';
 
   setTimeout(()=>{
-    try{ renderResult(buildReply(staffKey,menuMin,from,to,excluded)); }
+    try{
+      const result = currentMode === 'anon'
+        ? buildReplyAnon(menuMin,from,to,excluded,store)
+        : buildReply(staffKey,menuMin,from,to,excluded);
+      renderResult(result);
+    }
     catch(e){ showError('生成エラー: '+e.message); }
     document.getElementById('loading').style.display = 'none';
   },50);
@@ -255,14 +297,63 @@ function buildReply(staffKey,menuMin,from,to,excluded){
   return {text, myLines, others, otherSlotCount};
 }
 
-function renderResult({text,myLines,others,otherSlotCount}){
+// 名前なしモード：全担当の空きを店舗別・日付ごとに集約（同一日時の重複は1つにまとめる）
+function buildReplyAnon(menuMin,from,to,excluded,storeFilter){
+  const validLabels = new Set(MENU_LABELS[menuMin]||[]);
+
+  // store -> { date -> {month,day,dow, times:Set} }
+  const byStore = {};
+  Object.entries(staffData.staff)
+    .filter(([k])=>!excluded.has(k))
+    .forEach(([,s])=>{
+      if(storeFilter!=='both' && s.store!==storeFilter) return;
+      s.days
+        .filter(d=>d.date>=from && d.date<=to && d.status==='available')
+        .forEach(d=>{
+          d.groups.filter(g=>validLabels.has(g.label)).forEach(g=>{
+            g.times.forEach(t=>{
+              byStore[s.store] = byStore[s.store] || {};
+              if(!byStore[s.store][d.date]) byStore[s.store][d.date] = {month:d.month, day:d.day, dow:d.dow, times:new Set()};
+              byStore[s.store][d.date].times.add(t);
+            });
+          });
+        });
+    });
+
+  const storeOrder = storeFilter==='both' ? ['船橋','東京'] : [storeFilter];
+  let totalSlots = 0;
+  const sections = storeOrder
+    .filter(st=>byStore[st] && Object.keys(byStore[st]).length)
+    .map(st=>{
+      const days = byStore[st];
+      const lines = Object.keys(days).sort().map(date=>{
+        const d = days[date];
+        const times = [...d.times].sort();
+        totalSlots += times.length;
+        return `${d.month}/${d.day}(${d.dow}) ${times.join(' / ')}`;
+      });
+      return `【${st}店】\n${lines.join('\n')}`;
+    });
+
+  let text = 'お問い合わせありがとうございます🙇\n';
+  text += '\nご案内できるお日にちですと\n\n';
+  text += sections.length ? sections.join('\n\n') : '（この期間は空きがございません）';
+  text += '\n\n上記日時、ご希望のメニューでのご予約お取りできるのですが、いかがでしょうか？';
+
+  return {text, anon:true, otherSlotCount:totalSlots, myLines:[], others:sections};
+}
+
+function renderResult(result){
+  const {text, anon=false, myLines=[], otherSlotCount=0} = result;
   const area = document.getElementById('result-area');
   area.innerHTML = '';
   area.style.display = 'block';
 
   const sum = document.createElement('p');
   sum.className = 'summary';
-  sum.textContent = `自分: ${myLines.length}枠 ／ 他スタッフ: ${otherSlotCount}枠に空きあり`;
+  sum.textContent = anon
+    ? `空き枠: ${otherSlotCount}件`
+    : `自分: ${myLines.length}枠 ／ 他スタッフ: ${otherSlotCount}枠に空きあり`;
   area.appendChild(sum);
 
   const card = document.createElement('div');
