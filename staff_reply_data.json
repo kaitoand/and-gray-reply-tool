@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 5,
-    "today": "2026-05-30",
-    "generated_at": "2026-05-30T23:59:49.960387+09:00"
+    "today": "2026-05-31",
+    "generated_at": "2026-05-31T00:15:06.233851+09:00"
   },
   "staff": {
     "KAITO": {
@@ -278,7 +278,7 @@
           "day": 30,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -1779,7 +1779,7 @@
           "day": 30,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -3058,7 +3058,7 @@
           "day": 30,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -4351,7 +4351,7 @@
           "day": 30,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -5602,15 +5602,8 @@
           "day": 30,
           "dow": "土",
           "dow_idx": 6,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜120分コース",
-              "times": [
-                "15:30"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-05-31",
@@ -6723,7 +6716,7 @@
           "day": 30,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -8039,7 +8032,7 @@
           "day": 30,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -9513,7 +9506,7 @@
           "day": 30,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -11081,7 +11074,7 @@
           "day": 30,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -12568,7 +12561,7 @@
           "day": 30,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -14079,15 +14072,8 @@
           "day": 30,
           "dow": "土",
           "dow_idx": 6,
-          "status": "available",
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "12:30"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-05-31",
