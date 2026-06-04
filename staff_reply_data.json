@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 6,
-    "today": "2026-06-04",
-    "generated_at": "2026-06-04T23:44:51.549420+09:00"
+    "today": "2026-06-05",
+    "generated_at": "2026-06-05T00:00:05.014529+09:00"
   },
   "staff": {
     "KAITO": {
@@ -44,7 +44,7 @@
           "day": 4,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -1229,7 +1229,7 @@
           "day": 4,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -2182,7 +2182,7 @@
           "day": 4,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -3164,7 +3164,7 @@
           "day": 4,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -4128,7 +4128,7 @@
           "day": 4,
           "dow": "木",
           "dow_idx": 4,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -4963,7 +4963,7 @@
           "day": 4,
           "dow": "木",
           "dow_idx": 4,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -5946,15 +5946,8 @@
           "day": 4,
           "dow": "木",
           "dow_idx": 4,
-          "status": "available",
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "13:30"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-06-05",
@@ -7092,7 +7085,7 @@
           "day": 4,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -8328,15 +8321,8 @@
           "day": 4,
           "dow": "木",
           "dow_idx": 4,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜90分コース",
-              "times": [
-                "12:00"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-06-05",
@@ -9511,7 +9497,7 @@
           "day": 4,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -10700,15 +10686,8 @@
           "day": 4,
           "dow": "木",
           "dow_idx": 4,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜150分コース",
-              "times": [
-                "15:00"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-06-05",
