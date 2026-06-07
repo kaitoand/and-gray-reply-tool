@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 6,
-    "today": "2026-06-07",
-    "generated_at": "2026-06-07T23:58:45.122596+09:00"
+    "today": "2026-06-08",
+    "generated_at": "2026-06-08T00:13:58.622646+09:00"
   },
   "staff": {
     "KAITO": {
@@ -71,7 +71,7 @@
           "day": 7,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -1244,7 +1244,7 @@
           "day": 7,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -2196,7 +2196,7 @@
           "day": 7,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -3164,7 +3164,7 @@
           "day": 7,
           "dow": "日",
           "dow_idx": 0,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -4107,7 +4107,7 @@
           "day": 7,
           "dow": "日",
           "dow_idx": 0,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -4942,7 +4942,7 @@
           "day": 7,
           "dow": "日",
           "dow_idx": 0,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -5910,7 +5910,7 @@
           "day": 7,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -7042,7 +7042,7 @@
           "day": 7,
           "dow": "日",
           "dow_idx": 0,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -8264,7 +8264,7 @@
           "day": 7,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -9412,7 +9412,7 @@
           "day": 7,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -10580,7 +10580,7 @@
           "day": 7,
           "dow": "日",
           "dow_idx": 0,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
