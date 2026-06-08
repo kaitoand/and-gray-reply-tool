@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 6,
-    "today": "2026-06-08",
-    "generated_at": "2026-06-08T23:51:09.385393+09:00"
+    "today": "2026-06-09",
+    "generated_at": "2026-06-09T00:06:24.923685+09:00"
   },
   "staff": {
     "KAITO": {
@@ -80,7 +80,7 @@
           "day": 8,
           "dow": "月",
           "dow_idx": 1,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -1251,7 +1251,7 @@
           "day": 8,
           "dow": "月",
           "dow_idx": 1,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -2191,7 +2191,7 @@
           "day": 8,
           "dow": "月",
           "dow_idx": 1,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -3146,7 +3146,7 @@
           "day": 8,
           "dow": "月",
           "dow_idx": 1,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -4086,7 +4086,7 @@
           "day": 8,
           "dow": "月",
           "dow_idx": 1,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -4921,7 +4921,7 @@
           "day": 8,
           "dow": "月",
           "dow_idx": 1,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -5882,15 +5882,8 @@
           "day": 8,
           "dow": "月",
           "dow_idx": 1,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜90分コース",
-              "times": [
-                "12:00"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-06-09",
@@ -7007,15 +7000,8 @@
           "day": 8,
           "dow": "月",
           "dow_idx": 1,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜150分コース",
-              "times": [
-                "10:00"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-06-09",
@@ -8229,21 +8215,8 @@
           "day": 8,
           "dow": "月",
           "dow_idx": 1,
-          "status": "available",
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "10:00"
-              ]
-            },
-            {
-              "label": "60分〜90分コース",
-              "times": [
-                "13:30"
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-06-09",
@@ -9382,7 +9355,7 @@
           "day": 8,
           "dow": "月",
           "dow_idx": 1,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -10545,7 +10518,7 @@
           "day": 8,
           "dow": "月",
           "dow_idx": 1,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
