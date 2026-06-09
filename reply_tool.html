@@ -127,12 +127,8 @@ function setMode(mode){
   document.getElementById('staff-section').classList.toggle('hidden', mode!=='staff');
   document.getElementById('store-section').classList.toggle('hidden', mode!=='anon');
   document.getElementById('result-area').style.display = 'none';
-  // 空き枠だけ案内モードでは KAITO(かいと=オーナー) をデフォルトで除外しておく
-  // (お客様の一般問合せ対応では、かいとの枠を案内対象に含めない方針)
-  if(mode === 'anon'){
-    const kaitoChip = document.querySelector('.staff-chip[data-key="KAITO"]');
-    if(kaitoChip) kaitoChip.classList.add('excluded');
-  }
+  // KAITO のデフォルト除外は buildUI() の chip 生成時に DEFAULT_EXCLUDE で適用済み。
+  // モード切替では除外状態をリセットしない(ユーザーが外した状態を保持する)。
 }
 
 const MENU_LABELS = {
@@ -185,10 +181,13 @@ function buildUI(){
   }
 
   const chips = document.getElementById('staff-chips');
+  // KAITO(オーナー=かいと) は両モードとも初期状態で除外チップにチェックを入れておく。
+  // 必要に応じてユーザーがタップで外せる。モード切替ではリセットしない。
+  const DEFAULT_EXCLUDE = new Set(['KAITO']);
   for(const [k,s] of Object.entries(staffData.staff)){
     if(EXCLUDE_FROM_REPLY.has(k)) continue;
     const c = document.createElement('div');
-    c.className = 'staff-chip';
+    c.className = 'staff-chip' + (DEFAULT_EXCLUDE.has(k) ? ' excluded' : '');
     c.dataset.key = k;
     c.innerHTML = `<span class="dot"></span>${s.display}<span class="store-tag">${s.store}</span>`;
     c.addEventListener('click',()=>c.classList.toggle('excluded'));
