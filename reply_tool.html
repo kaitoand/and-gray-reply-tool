@@ -127,6 +127,12 @@ function setMode(mode){
   document.getElementById('staff-section').classList.toggle('hidden', mode!=='staff');
   document.getElementById('store-section').classList.toggle('hidden', mode!=='anon');
   document.getElementById('result-area').style.display = 'none';
+  // 空き枠だけ案内モードでは KAITO(かいと=オーナー) をデフォルトで除外しておく
+  // (お客様の一般問合せ対応では、かいとの枠を案内対象に含めない方針)
+  if(mode === 'anon'){
+    const kaitoChip = document.querySelector('.staff-chip[data-key="KAITO"]');
+    if(kaitoChip) kaitoChip.classList.add('excluded');
+  }
 }
 
 const MENU_LABELS = {
