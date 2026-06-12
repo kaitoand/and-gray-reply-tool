@@ -145,6 +145,46 @@ const MENU_LABELS = {
 // このセットのスタッフはUI（ドロップダウン・チップ）から非表示 + 他担当出力からも除外
 const EXCLUDE_FROM_REPLY = new Set(['NOZOMI']);
 
+// ============================================================
+// 吸収フォールバック用ヘルパー
+// 「packing で消える時刻」を、(13:30) のような括弧表記で救済するロジック
+// ============================================================
+// "HH:MM" → 分
+function tToMin(t){ const [h,m] = t.split(':').map(Number); return h*60 + m; }
+// staff の1日分 day から [{t, label, rm}] を取り出す (新フィールド slots[] 優先、旧 times[] 後方互換)
+function getDaySlots(day){
+  const out = [];
+  if(!day || !day.groups) return out;
+  for(const g of day.groups){
+    if(g.slots && g.slots.length){
+      for(const s of g.slots) out.push({t:s.t, label:g.label, rm:s.rm||0});
+    } else if(g.times && g.times.length){
+      for(const t of g.times) out.push({t, label:g.label, rm:0});  // 旧JSON: rm不明=吸収判定不能
+    }
+  }
+  return out;
+}
+// staff の slots 群で、時刻 T_min から menuMin 分の枠を取れるか(=吸収可否)
+function canStaffFitAt(slots, T_min, menuMin){
+  for(const s of slots){
+    const sMin = tToMin(s.t);
+    if(sMin > T_min) continue;
+    const offset = T_min - sMin;
+    if(offset % 30 !== 0) continue;
+    if(s.rm - offset >= menuMin) return true;
+  }
+  return false;
+}
+// menuMin に対応する最小ラベル(吸収表示時の label 文字列に使う)
+function labelForMenuMin(menuMin){
+  if(menuMin >= 210) return 'なんでも';
+  if(menuMin >= 180) return '60分〜180分コース';
+  if(menuMin >= 150) return '60分〜150分コース';
+  if(menuMin >= 120) return '60分〜120分コース';
+  if(menuMin >= 90)  return '60分〜90分コース';
+  return '75分コース';
+}
+
 async function loadData(){
   try{
     const res = await fetch('staff_reply_data.json');
@@ -241,59 +281,97 @@ function generate(){
 function buildReply(staffKey,menuMin,from,to,excluded){
   const myStaff = staffData.staff[staffKey];
   const validLabels = new Set(MENU_LABELS[menuMin]||[]);
+  const fallbackLabel = labelForMenuMin(menuMin);
 
-  function getLines(days){
-    return days
+  // ① 日付ごとに「対象スタッフ全員の当日 slots」を集める
+  //    (excluded は除く。ただし自分(staffKey)は除外チップで外していても自分セクションに必要なので保持)
+  // byDate: dateKey -> {month, day, dow, slotsByStaff: {key: {display, store, slots: [{t,label,rm}]}}}
+  const byDate = {};
+  Object.entries(staffData.staff).forEach(([k, s]) => {
+    if(excluded.has(k) && k !== staffKey) return;
+    s.days
       .filter(d=>d.date>=from && d.date<=to && d.status==='available')
-      .flatMap(d=>{
-        const matched = d.groups
-          .filter(g=>validLabels.has(g.label))
-          .flatMap(g=>g.times.map(t=>`${t} ${g.label}`));
-        return matched.length ? [`${d.month}/${d.day}(${d.dow}) ${matched.join(' / ')}`] : [];
+      .forEach(d=>{
+        if(!byDate[d.date]) byDate[d.date] = {month:d.month, day:d.day, dow:d.dow, slotsByStaff:{}};
+        byDate[d.date].slotsByStaff[k] = {display:s.display, store:s.store, slots:getDaySlots(d)};
       });
+  });
+
+  // ② 自分(myStaff)の予約セクション
+  //    候補時刻(=その日いずれかのスタッフのprimary時刻の和集合) ごとに primary/absorbed 判定
+  const myLines = [];
+  for(const date of Object.keys(byDate).sort()){
+    const dayObj = byDate[date];
+    const me = dayObj.slotsByStaff[staffKey];
+    if(!me || !me.slots.length) continue;
+    const candidates = new Set();
+    for(const k of Object.keys(dayObj.slotsByStaff)){
+      for(const s of dayObj.slotsByStaff[k].slots) candidates.add(s.t);
+    }
+    const entries = [];
+    for(const T of [...candidates].sort()){
+      const primary = me.slots.find(s=>s.t===T && validLabels.has(s.label));
+      if(primary){ entries.push({t:T, lab:primary.label, absorbed:false}); continue; }
+      if(canStaffFitAt(me.slots, tToMin(T), menuMin)){
+        entries.push({t:T, lab:fallbackLabel, absorbed:true});
+      }
+    }
+    if(!entries.length) continue;
+    const parts = entries.map(e=> e.absorbed ? `(${e.t}) ${e.lab}` : `${e.t} ${e.lab}`);
+    myLines.push(`${dayObj.month}/${dayObj.day}(${dayObj.dow}) ${parts.join(' / ')}`);
   }
 
-  const myLines = getLines(myStaff.days);
+  // ③ 他担当セクション: (date, store, time) ごとに primary / absorbed 名を集計
+  const otherRows = [];
+  for(const date of Object.keys(byDate).sort()){
+    const dayObj = byDate[date];
+    const candidates = new Set();
+    for(const k of Object.keys(dayObj.slotsByStaff)){
+      for(const s of dayObj.slotsByStaff[k].slots) candidates.add(s.t);
+    }
+    for(const T of candidates){
+      const perStore = {};
+      for(const k of Object.keys(dayObj.slotsByStaff)){
+        if(k === staffKey) continue;
+        const so = dayObj.slotsByStaff[k];
+        if(!perStore[so.store]) perStore[so.store] = {primary:[], absorbed:[]};
+        const hasPrimary = so.slots.some(sl=>sl.t===T && validLabels.has(sl.label));
+        if(hasPrimary){
+          perStore[so.store].primary.push(so.display);
+        } else if(canStaffFitAt(so.slots, tToMin(T), menuMin)){
+          perStore[so.store].absorbed.push(so.display);
+        }
+      }
+      for(const store of Object.keys(perStore)){
+        const ent = perStore[store];
+        if(ent.primary.length){
+          otherRows.push({date, month:dayObj.month, day:dayObj.day, dow:dayObj.dow, store, time:T, absorbed:false, names:ent.primary});
+        } else if(ent.absorbed.length){
+          otherRows.push({date, month:dayObj.month, day:dayObj.day, dow:dayObj.dow, store, time:T, absorbed:true, names:ent.absorbed});
+        }
+      }
+    }
+  }
 
-  // 他担当の空きを「日付+時刻+店舗」キーでグルーピング（店舗別セクションで表示）
-  const slotMap = {};
-  Object.entries(staffData.staff)
-    .filter(([k])=>k!==staffKey && !excluded.has(k))
-    .forEach(([k,s])=>{
-      s.days
-        .filter(d=>d.date>=from && d.date<=to && d.status==='available')
-        .forEach(d=>{
-          d.groups.filter(g=>validLabels.has(g.label)).forEach(g=>{
-            g.times.forEach(t=>{
-              const key = `${d.date}|${t}|${s.store}`;
-              if(!slotMap[key]) slotMap[key] = {date:d.date, time:t, store:s.store, dow:d.dow, month:d.month, day:d.day, names:new Set()};
-              slotMap[key].names.add(s.display);
-            });
-          });
-        });
-    });
-
-  // 店舗別にまとめ、店舗内は日時順ソート → セクション文字列を組み立て
-  // 選択されたスタッフの店舗を先頭に配置
+  // ④ 店舗別グルーピング+ソート
   const storeOrder = myStaff.store === '東京' ? ['東京','船橋'] : ['船橋','東京'];
-  const byStore = {};
-  Object.values(slotMap).forEach(slot=>{
-    (byStore[slot.store] = byStore[slot.store] || []).push(slot);
-  });
+  const byStoreMap = {};
+  for(const r of otherRows){ (byStoreMap[r.store] = byStoreMap[r.store] || []).push(r); }
   const others = storeOrder
-    .filter(st=>byStore[st] && byStore[st].length)
+    .filter(st=>byStoreMap[st] && byStoreMap[st].length)
     .map(st=>{
-      const lines = byStore[st]
+      const lines = byStoreMap[st]
         .sort((a,b)=> a.date!==b.date ? a.date.localeCompare(b.date) : a.time.localeCompare(b.time))
-        .map(slot=>`${slot.month}/${slot.day}(${slot.dow}) ${slot.time} → ${[...slot.names].join('・')}`);
+        .map(r=> r.absorbed
+          ? `${r.month}/${r.day}(${r.dow}) (${r.time}) ${r.names.join('・')}`
+          : `${r.month}/${r.day}(${r.dow}) ${r.time} → ${r.names.join('・')}`);
       return `【${st}店】\n${lines.join('\n')}`;
     });
-  const otherSlotCount = Object.values(slotMap).length;
+  const otherSlotCount = otherRows.length;
 
   let text = 'かしこまりました🙇\n';
   text += `\n私（${myStaff.display}）の予約ですと\n\n`;
   text += myLines.length ? myLines.join('\n') : '（この期間は空きがございません）';
-
   if(others.length){
     text += '\n\n他担当の空きですと\n\n' + others.join('\n\n');
   }
@@ -302,41 +380,54 @@ function buildReply(staffKey,menuMin,from,to,excluded){
   return {text, myLines, others, otherSlotCount};
 }
 
-// 名前なしモード：全担当の空きを店舗別・日付ごとに集約（同一日時の重複は1つにまとめる）
+// 名前なしモード：全担当の空きを店舗別・日付ごとに集約 + 吸収フォールバック (T) も含める
 function buildReplyAnon(menuMin,from,to,excluded,storeFilter){
   const validLabels = new Set(MENU_LABELS[menuMin]||[]);
 
-  // store -> { date -> {month,day,dow, times:Set} }
-  const byStore = {};
-  Object.entries(staffData.staff)
-    .filter(([k])=>!excluded.has(k))
-    .forEach(([,s])=>{
-      if(storeFilter!=='both' && s.store!==storeFilter) return;
-      s.days
-        .filter(d=>d.date>=from && d.date<=to && d.status==='available')
-        .forEach(d=>{
-          d.groups.filter(g=>validLabels.has(g.label)).forEach(g=>{
-            g.times.forEach(t=>{
-              byStore[s.store] = byStore[s.store] || {};
-              if(!byStore[s.store][d.date]) byStore[s.store][d.date] = {month:d.month, day:d.day, dow:d.dow, times:new Set()};
-              byStore[s.store][d.date].times.add(t);
-            });
-          });
-        });
-    });
+  // store -> date -> {month,day,dow, slotsByStaff: {staffKey: [{t,label,rm}]}}
+  const byStoreDate = {};
+  Object.entries(staffData.staff).forEach(([k,s])=>{
+    if(excluded.has(k)) return;
+    if(storeFilter!=='both' && s.store!==storeFilter) return;
+    s.days
+      .filter(d=>d.date>=from && d.date<=to && d.status==='available')
+      .forEach(d=>{
+        if(!byStoreDate[s.store]) byStoreDate[s.store] = {};
+        if(!byStoreDate[s.store][d.date]) byStoreDate[s.store][d.date] = {month:d.month, day:d.day, dow:d.dow, slotsByStaff:{}};
+        byStoreDate[s.store][d.date].slotsByStaff[k] = getDaySlots(d);
+      });
+  });
 
   const storeOrder = storeFilter==='both' ? ['船橋','東京'] : [storeFilter];
   let totalSlots = 0;
   const sections = storeOrder
-    .filter(st=>byStore[st] && Object.keys(byStore[st]).length)
+    .filter(st=>byStoreDate[st] && Object.keys(byStoreDate[st]).length)
     .map(st=>{
-      const days = byStore[st];
-      const lines = Object.keys(days).sort().map(date=>{
-        const d = days[date];
-        const times = [...d.times].sort();
-        totalSlots += times.length;
-        return `${d.month}/${d.day}(${d.dow}) ${times.join(' / ')}`;
-      });
+      const dates = byStoreDate[st];
+      const lines = [];
+      for(const date of Object.keys(dates).sort()){
+        const d = dates[date];
+        // 候補時刻 = いずれかのスタッフのprimary時刻(任意ラベル)の和集合
+        const candidates = new Set();
+        for(const k of Object.keys(d.slotsByStaff)){
+          for(const s of d.slotsByStaff[k]) candidates.add(s.t);
+        }
+        // primary と absorbed を同じリストに突っ込み時系列順で表示
+        // (absorbed のみ括弧で囲む — 例: 10:00 / (11:30) / 13:30)
+        const entries = [];
+        for(const T of [...candidates].sort()){
+          const hasPrimary = Object.values(d.slotsByStaff)
+            .some(slots => slots.some(s => s.t === T && validLabels.has(s.label)));
+          if(hasPrimary){ entries.push(T); continue; }
+          const hasAbsorbed = Object.values(d.slotsByStaff)
+            .some(slots => canStaffFitAt(slots, tToMin(T), menuMin));
+          if(hasAbsorbed) entries.push(`(${T})`);
+        }
+        if(entries.length){
+          totalSlots += entries.length;
+          lines.push(`${d.month}/${d.day}(${d.dow}) ${entries.join(' / ')}`);
+        }
+      }
       return `【${st}店】\n${lines.join('\n')}`;
     });
 
