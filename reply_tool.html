@@ -300,6 +300,7 @@ function buildReply(staffKey,menuMin,from,to,excluded){
   // ② 自分(myStaff)の予約セクション
   //    候補時刻(=その日いずれかのスタッフのprimary時刻の和集合) ごとに primary/absorbed 判定
   const myLines = [];
+  let selfHasAbsorbed = false;
   for(const date of Object.keys(byDate).sort()){
     const dayObj = byDate[date];
     const me = dayObj.slotsByStaff[staffKey];
@@ -314,9 +315,13 @@ function buildReply(staffKey,menuMin,from,to,excluded){
       if(primary){ entries.push({t:T, lab:primary.label, absorbed:false}); continue; }
       if(canStaffFitAt(me.slots, tToMin(T), menuMin)){
         entries.push({t:T, lab:fallbackLabel, absorbed:true});
+        selfHasAbsorbed = true;
       }
     }
     if(!entries.length) continue;
+    // primary を先(時刻昇順) → absorbed を後(時刻昇順) に並べる
+    // (詰めて予約してもらいたいので primary を優先案内、absorbed は要相談の代替案)
+    entries.sort((a,b)=> a.absorbed!==b.absorbed ? (a.absorbed?1:-1) : a.t.localeCompare(b.t));
     const parts = entries.map(e=> e.absorbed ? `(${e.t}) ${e.lab}` : `${e.t} ${e.lab}`);
     myLines.push(`${dayObj.month}/${dayObj.day}(${dayObj.dow}) ${parts.join(' / ')}`);
   }
@@ -360,8 +365,13 @@ function buildReply(staffKey,menuMin,from,to,excluded){
   const others = storeOrder
     .filter(st=>byStoreMap[st] && byStoreMap[st].length)
     .map(st=>{
+      // 日付昇順 → 同日内は primary 先(時刻昇順) → absorbed 後(時刻昇順)
       const lines = byStoreMap[st]
-        .sort((a,b)=> a.date!==b.date ? a.date.localeCompare(b.date) : a.time.localeCompare(b.time))
+        .sort((a,b)=>{
+          if(a.date !== b.date) return a.date.localeCompare(b.date);
+          if(a.absorbed !== b.absorbed) return a.absorbed ? 1 : -1;
+          return a.time.localeCompare(b.time);
+        })
         .map(r=> r.absorbed
           ? `${r.month}/${r.day}(${r.dow}) (${r.time}) ${r.names.join('・')}`
           : `${r.month}/${r.day}(${r.dow}) ${r.time} → ${r.names.join('・')}`);
@@ -369,11 +379,17 @@ function buildReply(staffKey,menuMin,from,to,excluded){
     });
   const otherSlotCount = otherRows.length;
 
+  // 吸収フォールバック表記が1件でもあれば末尾に注記
+  const hasAbsorbed = selfHasAbsorbed || otherRows.some(r=>r.absorbed);
+
   let text = 'かしこまりました🙇\n';
   text += `\n私（${myStaff.display}）の予約ですと\n\n`;
   text += myLines.length ? myLines.join('\n') : '（この期間は空きがございません）';
   if(others.length){
     text += '\n\n他担当の空きですと\n\n' + others.join('\n\n');
+  }
+  if(hasAbsorbed){
+    text += '\n\n※（）要相談';
   }
   text += '\n\n上記の日付がお取りできるのですが、いかがでしょうか？';
 
@@ -412,28 +428,38 @@ function buildReplyAnon(menuMin,from,to,excluded,storeFilter){
         for(const k of Object.keys(d.slotsByStaff)){
           for(const s of d.slotsByStaff[k]) candidates.add(s.t);
         }
-        // primary と absorbed を同じリストに突っ込み時系列順で表示
-        // (absorbed のみ括弧で囲む — 例: 10:00 / (11:30) / 13:30)
-        const entries = [];
+        // primary 先(時刻昇順) → absorbed 後(時刻昇順)
+        // (詰めて予約してもらいたいので primary を優先案内、absorbed は要相談の代替案)
+        const primaryTimes = [];
+        const absorbedTimes = [];
         for(const T of [...candidates].sort()){
           const hasPrimary = Object.values(d.slotsByStaff)
             .some(slots => slots.some(s => s.t === T && validLabels.has(s.label)));
-          if(hasPrimary){ entries.push(T); continue; }
+          if(hasPrimary){ primaryTimes.push(T); continue; }
           const hasAbsorbed = Object.values(d.slotsByStaff)
             .some(slots => canStaffFitAt(slots, tToMin(T), menuMin));
-          if(hasAbsorbed) entries.push(`(${T})`);
+          if(hasAbsorbed) absorbedTimes.push(`(${T})`);
         }
-        if(entries.length){
-          totalSlots += entries.length;
-          lines.push(`${d.month}/${d.day}(${d.dow}) ${entries.join(' / ')}`);
+        const all = [...primaryTimes, ...absorbedTimes];
+        if(all.length){
+          totalSlots += all.length;
+          lines.push(`${d.month}/${d.day}(${d.dow}) ${all.join(' / ')}`);
         }
       }
       return `【${st}店】\n${lines.join('\n')}`;
     });
 
+  // 吸収フォールバック表記 (T) が1件でもあれば末尾に注記
+  // ※ sections に (月) みたいな曜日表記の括弧があるので、
+  //   (HH:MM) パターンで判定する。
+  const hasAbsorbed = sections.some(s=>/\(\d{2}:\d{2}\)/.test(s));
+
   let text = 'お問い合わせありがとうございます🙇\n';
   text += '\nご案内できるお日にちですと\n\n';
   text += sections.length ? sections.join('\n\n') : '（この期間は空きがございません）';
+  if(hasAbsorbed){
+    text += '\n\n※（）要相談';
+  }
   text += '\n\n上記日時、ご希望のメニューでのご予約お取りできるのですが、いかがでしょうか？';
 
   return {text, anon:true, otherSlotCount:totalSlots, myLines:[], others:sections};
