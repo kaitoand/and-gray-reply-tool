@@ -389,7 +389,7 @@ function buildReply(staffKey,menuMin,from,to,excluded){
     text += '\n\n他担当の空きですと\n\n' + others.join('\n\n');
   }
   if(hasAbsorbed){
-    text += '\n\n※（）要相談';
+    text += '\n\n※（）はどうしてもそのお時間しかご来店が取れない方のみご相談承ります';
   }
   text += '\n\n上記の日付がお取りできるのですが、いかがでしょうか？';
 
@@ -458,7 +458,7 @@ function buildReplyAnon(menuMin,from,to,excluded,storeFilter){
   text += '\nご案内できるお日にちですと\n\n';
   text += sections.length ? sections.join('\n\n') : '（この期間は空きがございません）';
   if(hasAbsorbed){
-    text += '\n\n※（）要相談';
+    text += '\n\n※（）はどうしてもそのお時間しかご来店が取れない方のみご相談承ります';
   }
   text += '\n\n上記日時、ご希望のメニューでのご予約お取りできるのですが、いかがでしょうか？';
 
