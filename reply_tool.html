@@ -54,6 +54,11 @@
   .mode-btn{flex:1;background:transparent;color:var(--text-dim);border:none;border-radius:7px;padding:11px 8px;font-size:13px;font-family:'Noto Sans JP',sans-serif;font-weight:500;cursor:pointer;transition:all .15s;-webkit-tap-highlight-color:transparent}
   .mode-btn.active{background:var(--accent);color:#0d0d0d;font-weight:700}
   .hidden{display:none!important}
+  .absorbed-toggle{display:flex;align-items:center;gap:10px;background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:13px 16px;font-size:13px;cursor:pointer;transition:all .15s;-webkit-tap-highlight-color:transparent;user-select:none;margin-bottom:12px}
+  .absorbed-toggle.active{background:var(--accent-dim);border-color:var(--accent);color:var(--accent)}
+  .absorbed-toggle .dot{width:10px;height:10px;border-radius:50%;background:var(--text-dim);transition:background .15s;flex-shrink:0}
+  .absorbed-toggle.active .dot{background:var(--accent)}
+  .absorbed-hint{font-size:11px;color:var(--text-dim);padding:0 4px;margin-bottom:8px}
 </style>
 </head>
 <body>
@@ -111,6 +116,12 @@
     <p style="font-size:11px;color:var(--text-dim);margin-top:10px">タップで除外 / 再タップで戻す</p>
   </div>
 
+  <div class="absorbed-toggle" id="absorbed-toggle" onclick="toggleAbsorbed()">
+    <span class="dot"></span>
+    <span>（）どうしても枠も含める</span>
+  </div>
+  <div class="absorbed-hint">他の時間がどうしてもダメな方向けの代替枠（括弧表記）も案内文に含める</div>
+
   <button class="btn-generate" onclick="generate()">返信文を生成する</button>
   <div id="loading"><div class="spinner"></div>生成中...</div>
   <hr class="sep">
@@ -120,6 +131,13 @@
 <script>
 let staffData = null;
 let currentMode = 'staff'; // 'staff' = 担当目線 / 'anon' = 空き枠だけ案内（名前なし）
+let includeAbsorbed = false;  // ()のどうしても枠を結果に含めるか(デフォルト=オフ)
+
+function toggleAbsorbed(){
+  includeAbsorbed = !includeAbsorbed;
+  document.getElementById('absorbed-toggle').classList.toggle('active', includeAbsorbed);
+  document.getElementById('result-area').style.display = 'none';
+}
 
 function setMode(mode){
   currentMode = mode;
@@ -269,8 +287,8 @@ function generate(){
   setTimeout(()=>{
     try{
       const result = currentMode === 'anon'
-        ? buildReplyAnon(menuMin,from,to,excluded,store)
-        : buildReply(staffKey,menuMin,from,to,excluded);
+        ? buildReplyAnon(menuMin,from,to,excluded,store,includeAbsorbed)
+        : buildReply(staffKey,menuMin,from,to,excluded,includeAbsorbed);
       renderResult(result);
     }
     catch(e){ showError('生成エラー: '+e.message); }
@@ -278,7 +296,7 @@ function generate(){
   },50);
 }
 
-function buildReply(staffKey,menuMin,from,to,excluded){
+function buildReply(staffKey,menuMin,from,to,excluded,includeAbsorbed){
   const myStaff = staffData.staff[staffKey];
   const validLabels = new Set(MENU_LABELS[menuMin]||[]);
   const fallbackLabel = labelForMenuMin(menuMin);
@@ -313,7 +331,7 @@ function buildReply(staffKey,menuMin,from,to,excluded){
     for(const T of [...candidates].sort()){
       const primary = me.slots.find(s=>s.t===T && validLabels.has(s.label));
       if(primary){ entries.push({t:T, lab:primary.label, absorbed:false}); continue; }
-      if(canStaffFitAt(me.slots, tToMin(T), menuMin)){
+      if(includeAbsorbed && canStaffFitAt(me.slots, tToMin(T), menuMin)){
         entries.push({t:T, lab:fallbackLabel, absorbed:true});
         selfHasAbsorbed = true;
       }
@@ -343,7 +361,7 @@ function buildReply(staffKey,menuMin,from,to,excluded){
         const hasPrimary = so.slots.some(sl=>sl.t===T && validLabels.has(sl.label));
         if(hasPrimary){
           perStore[so.store].primary.push(so.display);
-        } else if(canStaffFitAt(so.slots, tToMin(T), menuMin)){
+        } else if(includeAbsorbed && canStaffFitAt(so.slots, tToMin(T), menuMin)){
           perStore[so.store].absorbed.push(so.display);
         }
       }
@@ -396,8 +414,8 @@ function buildReply(staffKey,menuMin,from,to,excluded){
   return {text, myLines, others, otherSlotCount};
 }
 
-// 名前なしモード：全担当の空きを店舗別・日付ごとに集約 + 吸収フォールバック (T) も含める
-function buildReplyAnon(menuMin,from,to,excluded,storeFilter){
+// 名前なしモード：全担当の空きを店舗別・日付ごとに集約 + 吸収フォールバック (T) も含める(includeAbsorbed=true時)
+function buildReplyAnon(menuMin,from,to,excluded,storeFilter,includeAbsorbed){
   const validLabels = new Set(MENU_LABELS[menuMin]||[]);
 
   // store -> date -> {month,day,dow, slotsByStaff: {staffKey: [{t,label,rm}]}}
@@ -436,6 +454,7 @@ function buildReplyAnon(menuMin,from,to,excluded,storeFilter){
           const hasPrimary = Object.values(d.slotsByStaff)
             .some(slots => slots.some(s => s.t === T && validLabels.has(s.label)));
           if(hasPrimary){ primaryTimes.push(T); continue; }
+          if(!includeAbsorbed) continue;
           const hasAbsorbed = Object.values(d.slotsByStaff)
             .some(slots => canStaffFitAt(slots, tToMin(T), menuMin));
           if(hasAbsorbed) absorbedTimes.push(`(${T})`);
