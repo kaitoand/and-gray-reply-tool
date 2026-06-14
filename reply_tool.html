@@ -175,7 +175,7 @@ function canStaffFitAt(slots, T_min, menuMin){
   }
   return false;
 }
-// menuMin に対応する最小ラベル(吸収表示時の label 文字列に使う)
+// menuMin に対応する最小ラベル(anchor 追加表示時の label 文字列に使う)
 function labelForMenuMin(menuMin){
   if(menuMin >= 210) return 'なんでも';
   if(menuMin >= 180) return '60分〜180分コース';
@@ -183,6 +183,36 @@ function labelForMenuMin(menuMin){
   if(menuMin >= 120) return '60分〜120分コース';
   if(menuMin >= 90)  return '60分〜90分コース';
   return '75分コース';
+}
+
+// 「特別大事な時刻」(=お店ガラ空き時に carve がなんでも(210)で出す自然な時刻)
+// このルールは全メニュー固定: 10:00 と 13:30 はそのスタッフがメニュー入れられるなら追加で出す
+const ANCHOR_TIMES = ['10:00', '13:30'];
+
+// 各スタッフ単独で、その日に「提示する時刻リスト」を作る:
+//   ① carve が詰めた primary 時刻(メニュー一致)
+//   ② ANCHOR_TIMES (10:00, 13:30) でそのスタッフがメニュー入れられる時刻(かつ primary に既出でない)
+// 他スタッフとの連動はしない。全部同じ形式(括弧なし)で時刻順に並べる。
+function getOfferedSlotsForStaff(staffSlots, validLabels, menuMin, fallbackLabel){
+  const out = [];
+  const seen = new Set();
+  // ① 詰めた primary でメニューに一致するもの
+  for(const s of staffSlots){
+    if(validLabels.has(s.label) && !seen.has(s.t)){
+      out.push({t:s.t, label:s.label});
+      seen.add(s.t);
+    }
+  }
+  // ② anchor 時刻: そのスタッフが menuMin 入れられるなら追加
+  for(const anchor of ANCHOR_TIMES){
+    if(seen.has(anchor)) continue;
+    if(canStaffFitAt(staffSlots, tToMin(anchor), menuMin)){
+      out.push({t:anchor, label:fallbackLabel});
+      seen.add(anchor);
+    }
+  }
+  out.sort((a,b)=> a.t.localeCompare(b.t));
+  return out;
 }
 
 async function loadData(){
@@ -282,18 +312,9 @@ function buildReply(staffKey,menuMin,from,to,excluded){
   const myStaff = staffData.staff[staffKey];
   const validLabels = new Set(MENU_LABELS[menuMin]||[]);
   const fallbackLabel = labelForMenuMin(menuMin);
-  // 吸収フォールバック (T) は「その日メニュー一致 primary がゼロ件」のときだけ自動表示
-  // (=出さないとその日その日メニューが取れない=機会損失) でだけ救済表示する。
-  // primary が1件でもあれば吸収は出さない(=「他の時間で案内できる」のでノイズ)
-  function dayHasMenuPrimary(dayObj){
-    for(const k of Object.keys(dayObj.slotsByStaff)){
-      if(dayObj.slotsByStaff[k].slots.some(s=>validLabels.has(s.label))) return true;
-    }
-    return false;
-  }
 
-  // ① 日付ごとに「対象スタッフ全員の当日 slots」を集める
-  //    (excluded は除く。ただし自分(staffKey)は除外チップで外していても自分セクションに必要なので保持)
+  // 日付ごとに「対象スタッフ全員の当日 slots」を集める
+  //   (excluded は除く。ただし自分(staffKey)は除外チップで外していても自分セクションに必要なので保持)
   // byDate: dateKey -> {month, day, dow, slotsByStaff: {key: {display, store, slots: [{t,label,rm}]}}}
   const byDate = {};
   Object.entries(staffData.staff).forEach(([k, s]) => {
@@ -306,101 +327,62 @@ function buildReply(staffKey,menuMin,from,to,excluded){
       });
   });
 
-  // ② 自分(myStaff)の予約セクション
-  //    候補時刻(=その日いずれかのスタッフのprimary時刻の和集合) ごとに primary/absorbed 判定
+  // 自分(myStaff)の予約セクション: 各日 getOfferedSlotsForStaff の結果を時刻順に出す
   const myLines = [];
-  let selfHasAbsorbed = false;
   for(const date of Object.keys(byDate).sort()){
     const dayObj = byDate[date];
     const me = dayObj.slotsByStaff[staffKey];
     if(!me || !me.slots.length) continue;
-    const candidates = new Set();
-    for(const k of Object.keys(dayObj.slotsByStaff)){
-      for(const s of dayObj.slotsByStaff[k].slots) candidates.add(s.t);
-    }
-    const allowAbsorbed = !dayHasMenuPrimary(dayObj);
-    const entries = [];
-    for(const T of [...candidates].sort()){
-      const primary = me.slots.find(s=>s.t===T && validLabels.has(s.label));
-      if(primary){ entries.push({t:T, lab:primary.label, absorbed:false}); continue; }
-      if(allowAbsorbed && canStaffFitAt(me.slots, tToMin(T), menuMin)){
-        entries.push({t:T, lab:fallbackLabel, absorbed:true});
-        selfHasAbsorbed = true;
-      }
-    }
-    if(!entries.length) continue;
-    // primary を先(時刻昇順) → absorbed を後(時刻昇順) に並べる
-    // (詰めて予約してもらいたいので primary を優先案内、absorbed は要相談の代替案)
-    entries.sort((a,b)=> a.absorbed!==b.absorbed ? (a.absorbed?1:-1) : a.t.localeCompare(b.t));
-    const parts = entries.map(e=> e.absorbed ? `(${e.t}) ${e.lab}` : `${e.t} ${e.lab}`);
+    const offered = getOfferedSlotsForStaff(me.slots, validLabels, menuMin, fallbackLabel);
+    if(!offered.length) continue;
+    const parts = offered.map(o=> `${o.t} ${o.label}`);
     myLines.push(`${dayObj.month}/${dayObj.day}(${dayObj.dow}) ${parts.join(' / ')}`);
   }
 
-  // ③ 他担当セクション: (date, store, time) ごとに primary / absorbed 名を集計
+  // 他担当セクション: スタッフごとに offered を計算 → (date, store, time) で名前を集計
   const otherRows = [];
   for(const date of Object.keys(byDate).sort()){
     const dayObj = byDate[date];
-    const allowAbsorbed = !dayHasMenuPrimary(dayObj);  // primary ゼロ件の日のみ吸収許可
-    const candidates = new Set();
+    const perStoreTime = {};  // store -> time -> [display names]
     for(const k of Object.keys(dayObj.slotsByStaff)){
-      for(const s of dayObj.slotsByStaff[k].slots) candidates.add(s.t);
-    }
-    for(const T of candidates){
-      const perStore = {};
-      for(const k of Object.keys(dayObj.slotsByStaff)){
-        if(k === staffKey) continue;
-        const so = dayObj.slotsByStaff[k];
-        if(!perStore[so.store]) perStore[so.store] = {primary:[], absorbed:[]};
-        const hasPrimary = so.slots.some(sl=>sl.t===T && validLabels.has(sl.label));
-        if(hasPrimary){
-          perStore[so.store].primary.push(so.display);
-        } else if(allowAbsorbed && canStaffFitAt(so.slots, tToMin(T), menuMin)){
-          perStore[so.store].absorbed.push(so.display);
-        }
+      if(k === staffKey) continue;
+      const so = dayObj.slotsByStaff[k];
+      const offered = getOfferedSlotsForStaff(so.slots, validLabels, menuMin, fallbackLabel);
+      for(const o of offered){
+        if(!perStoreTime[so.store]) perStoreTime[so.store] = {};
+        if(!perStoreTime[so.store][o.t]) perStoreTime[so.store][o.t] = [];
+        perStoreTime[so.store][o.t].push(so.display);
       }
-      for(const store of Object.keys(perStore)){
-        const ent = perStore[store];
-        if(ent.primary.length){
-          otherRows.push({date, month:dayObj.month, day:dayObj.day, dow:dayObj.dow, store, time:T, absorbed:false, names:ent.primary});
-        } else if(ent.absorbed.length){
-          otherRows.push({date, month:dayObj.month, day:dayObj.day, dow:dayObj.dow, store, time:T, absorbed:true, names:ent.absorbed});
-        }
+    }
+    for(const store of Object.keys(perStoreTime)){
+      for(const t of Object.keys(perStoreTime[store])){
+        otherRows.push({
+          date, month:dayObj.month, day:dayObj.day, dow:dayObj.dow,
+          store, time:t, names:perStoreTime[store][t]
+        });
       }
     }
   }
 
-  // ④ 店舗別グルーピング+ソート
+  // 店舗別グルーピング+ソート (担当の店舗を先頭、店舗内は日時順)
   const storeOrder = myStaff.store === '東京' ? ['東京','船橋'] : ['船橋','東京'];
   const byStoreMap = {};
   for(const r of otherRows){ (byStoreMap[r.store] = byStoreMap[r.store] || []).push(r); }
   const others = storeOrder
     .filter(st=>byStoreMap[st] && byStoreMap[st].length)
     .map(st=>{
-      // 日付昇順 → 同日内は primary 先(時刻昇順) → absorbed 後(時刻昇順)
       const lines = byStoreMap[st]
-        .sort((a,b)=>{
-          if(a.date !== b.date) return a.date.localeCompare(b.date);
-          if(a.absorbed !== b.absorbed) return a.absorbed ? 1 : -1;
-          return a.time.localeCompare(b.time);
-        })
-        .map(r=> r.absorbed
-          ? `${r.month}/${r.day}(${r.dow}) (${r.time}) ${r.names.join('・')}`
-          : `${r.month}/${r.day}(${r.dow}) ${r.time} → ${r.names.join('・')}`);
+        .sort((a,b)=> a.date!==b.date ? a.date.localeCompare(b.date) : a.time.localeCompare(b.time))
+        .map(r=> `${r.month}/${r.day}(${r.dow}) ${r.time} → ${r.names.join('・')}`);
       return `【${st}店】\n${lines.join('\n')}`;
     });
   const otherSlotCount = otherRows.length;
-
-  // 吸収フォールバック表記が1件でもあれば末尾に注記
-  const hasAbsorbed = selfHasAbsorbed || otherRows.some(r=>r.absorbed);
 
   let text = 'かしこまりました🙇\n';
   text += `\n私（${myStaff.display}）の予約ですと\n\n`;
   text += myLines.length ? myLines.join('\n') : '（この期間は空きがございません）';
   if(others.length){
     text += '\n\n他担当の空きですと\n\n' + others.join('\n\n');
-  }
-  if(hasAbsorbed){
-    text += '\n\n※（）はどうしてもそのお時間しかご来店が取れない方のみご相談承ります';
   }
   text += '\n\n上記の日付がお取りできるのですが、いかがでしょうか？';
 
@@ -426,6 +408,7 @@ function buildReplyAnon(menuMin,from,to,excluded,storeFilter){
       });
   });
 
+  const fallbackLabel = labelForMenuMin(menuMin);
   const storeOrder = storeFilter==='both' ? ['船橋','東京'] : [storeFilter];
   let totalSlots = 0;
   const sections = storeOrder
@@ -435,47 +418,24 @@ function buildReplyAnon(menuMin,from,to,excluded,storeFilter){
       const lines = [];
       for(const date of Object.keys(dates).sort()){
         const d = dates[date];
-        // 候補時刻 = いずれかのスタッフのprimary時刻(任意ラベル)の和集合
-        const candidates = new Set();
+        // 各スタッフの offered (詰め primary + 10:00/13:30 anchor) の時刻だけ和集合で集める
+        const offeredTimes = new Set();
         for(const k of Object.keys(d.slotsByStaff)){
-          for(const s of d.slotsByStaff[k]) candidates.add(s.t);
+          const offered = getOfferedSlotsForStaff(d.slotsByStaff[k], validLabels, menuMin, fallbackLabel);
+          for(const o of offered) offeredTimes.add(o.t);
         }
-        // この (store, date) でメニュー一致 primary が1件もないときだけ吸収を許可
-        const allowAbsorbed = !Object.values(d.slotsByStaff)
-          .some(slots => slots.some(s => validLabels.has(s.label)));
-        // primary 先(時刻昇順) → absorbed 後(時刻昇順)
-        // (詰めて予約してもらいたいので primary を優先案内、absorbed は要相談の代替案)
-        const primaryTimes = [];
-        const absorbedTimes = [];
-        for(const T of [...candidates].sort()){
-          const hasPrimary = Object.values(d.slotsByStaff)
-            .some(slots => slots.some(s => s.t === T && validLabels.has(s.label)));
-          if(hasPrimary){ primaryTimes.push(T); continue; }
-          if(!allowAbsorbed) continue;
-          const hasAbsorbed = Object.values(d.slotsByStaff)
-            .some(slots => canStaffFitAt(slots, tToMin(T), menuMin));
-          if(hasAbsorbed) absorbedTimes.push(`(${T})`);
-        }
-        const all = [...primaryTimes, ...absorbedTimes];
-        if(all.length){
-          totalSlots += all.length;
-          lines.push(`${d.month}/${d.day}(${d.dow}) ${all.join(' / ')}`);
+        if(offeredTimes.size){
+          const sorted = [...offeredTimes].sort();
+          totalSlots += sorted.length;
+          lines.push(`${d.month}/${d.day}(${d.dow}) ${sorted.join(' / ')}`);
         }
       }
       return `【${st}店】\n${lines.join('\n')}`;
     });
 
-  // 吸収フォールバック表記 (T) が1件でもあれば末尾に注記
-  // ※ sections に (月) みたいな曜日表記の括弧があるので、
-  //   (HH:MM) パターンで判定する。
-  const hasAbsorbed = sections.some(s=>/\(\d{2}:\d{2}\)/.test(s));
-
   let text = 'お問い合わせありがとうございます🙇\n';
   text += '\nご案内できるお日にちですと\n\n';
   text += sections.length ? sections.join('\n\n') : '（この期間は空きがございません）';
-  if(hasAbsorbed){
-    text += '\n\n※（）はどうしてもそのお時間しかご来店が取れない方のみご相談承ります';
-  }
   text += '\n\n上記日時、ご希望のメニューでのご予約お取りできるのですが、いかがでしょうか？';
 
   return {text, anon:true, otherSlotCount:totalSlots, myLines:[], others:sections};
