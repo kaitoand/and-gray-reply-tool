@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 6,
-    "today": "2026-06-18",
-    "generated_at": "2026-06-18T23:58:47.105854+09:00"
+    "today": "2026-06-19",
+    "generated_at": "2026-06-19T00:14:04.170141+09:00"
   },
   "staff": {
     "KAITO": {
@@ -170,7 +170,7 @@
           "day": 18,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -1514,7 +1514,7 @@
           "day": 18,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -2482,7 +2482,7 @@
           "day": 18,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -3510,7 +3510,7 @@
           "day": 18,
           "dow": "木",
           "dow_idx": 4,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -4505,7 +4505,7 @@
           "day": 18,
           "dow": "木",
           "dow_idx": 4,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -5340,7 +5340,7 @@
           "day": 18,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -6395,7 +6395,7 @@
           "day": 18,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -7703,21 +7703,8 @@
           "day": 18,
           "dow": "木",
           "dow_idx": 4,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜180分コース",
-              "times": [
-                "14:30"
-              ],
-              "slots": [
-                {
-                  "t": "14:30",
-                  "rm": 180
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-06-19",
@@ -9160,7 +9147,7 @@
           "day": 18,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -10467,21 +10454,8 @@
           "day": 18,
           "dow": "木",
           "dow_idx": 4,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜180分コース",
-              "times": [
-                "12:00"
-              ],
-              "slots": [
-                {
-                  "t": "12:00",
-                  "rm": 180
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-06-19",
@@ -11807,7 +11781,7 @@
           "day": 18,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
