@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 6,
-    "today": "2026-06-19",
-    "generated_at": "2026-06-19T23:53:31.672579+09:00"
+    "today": "2026-06-20",
+    "generated_at": "2026-06-20T00:08:48.856116+09:00"
   },
   "staff": {
     "KAITO": {
@@ -179,7 +179,7 @@
           "day": 19,
           "dow": "金",
           "dow_idx": 5,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -1523,7 +1523,7 @@
           "day": 19,
           "dow": "金",
           "dow_idx": 5,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -2479,7 +2479,7 @@
           "day": 19,
           "dow": "金",
           "dow_idx": 5,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -3469,7 +3469,7 @@
           "day": 19,
           "dow": "金",
           "dow_idx": 5,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -4458,7 +4458,7 @@
           "day": 19,
           "dow": "金",
           "dow_idx": 5,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -5293,7 +5293,7 @@
           "day": 19,
           "dow": "金",
           "dow_idx": 5,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -6304,7 +6304,7 @@
           "day": 19,
           "dow": "金",
           "dow_idx": 5,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -7600,7 +7600,7 @@
           "day": 19,
           "dow": "金",
           "dow_idx": 5,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -9014,7 +9014,7 @@
           "day": 19,
           "dow": "金",
           "dow_idx": 5,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -10321,7 +10321,7 @@
           "day": 19,
           "dow": "金",
           "dow_idx": 5,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -11663,7 +11663,7 @@
           "day": 19,
           "dow": "金",
           "dow_idx": 5,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
