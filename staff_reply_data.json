@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 6,
-    "today": "2026-06-25",
-    "generated_at": "2026-06-25T23:50:41.765646+09:00"
+    "today": "2026-06-26",
+    "generated_at": "2026-06-26T00:05:53.015236+09:00"
   },
   "staff": {
     "KAITO": {
@@ -233,7 +233,7 @@
           "day": 25,
           "dow": "木",
           "dow_idx": 4,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -2115,7 +2115,7 @@
           "day": 25,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -3500,7 +3500,7 @@
           "day": 25,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -4660,19 +4660,14 @@
           "status": "available",
           "groups": [
             {
-              "label": "なんでも",
+              "label": "60分〜120分コース",
               "times": [
-                "10:00",
-                "13:30"
+                "15:30"
               ],
               "slots": [
                 {
-                  "t": "10:00",
-                  "rm": 450
-                },
-                {
-                  "t": "13:30",
-                  "rm": 240
+                  "t": "15:30",
+                  "rm": 120
                 }
               ]
             }
@@ -4943,7 +4938,7 @@
           "day": 25,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -6035,19 +6030,14 @@
           "status": "available",
           "groups": [
             {
-              "label": "なんでも",
+              "label": "60分〜120分コース",
               "times": [
-                "10:00",
-                "13:30"
+                "15:30"
               ],
               "slots": [
                 {
-                  "t": "10:00",
-                  "rm": 450
-                },
-                {
-                  "t": "13:30",
-                  "rm": 240
+                  "t": "15:30",
+                  "rm": 120
                 }
               ]
             }
@@ -6336,7 +6326,7 @@
           "day": 25,
           "dow": "木",
           "dow_idx": 4,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -7441,7 +7431,7 @@
           "day": 25,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -8723,7 +8713,7 @@
           "day": 25,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -10539,21 +10529,8 @@
           "day": 25,
           "dow": "木",
           "dow_idx": 4,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜90分コース",
-              "times": [
-                "15:30"
-              ],
-              "slots": [
-                {
-                  "t": "15:30",
-                  "rm": 90
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-06-26",
@@ -12510,7 +12487,7 @@
           "day": 25,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -14326,7 +14303,7 @@
           "day": 25,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -16241,21 +16218,8 @@
           "day": 25,
           "dow": "木",
           "dow_idx": 4,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜150分コース",
-              "times": [
-                "15:00"
-              ],
-              "slots": [
-                {
-                  "t": "15:00",
-                  "rm": 150
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-06-26",
