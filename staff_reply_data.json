@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 7,
-    "today": "2026-07-08",
-    "generated_at": "2026-07-08T23:49:43.329343+09:00"
+    "today": "2026-07-09",
+    "generated_at": "2026-07-09T00:04:51.430746+09:00"
   },
   "staff": {
     "KAITO": {
@@ -80,7 +80,7 @@
           "day": 8,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -1517,7 +1517,7 @@
           "day": 8,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -2492,7 +2492,7 @@
           "day": 8,
           "dow": "水",
           "dow_idx": 3,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -3475,7 +3475,7 @@
           "day": 8,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -4476,7 +4476,7 @@
           "day": 8,
           "dow": "水",
           "dow_idx": 3,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -5311,7 +5311,7 @@
           "day": 8,
           "dow": "水",
           "dow_idx": 3,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -6484,7 +6484,7 @@
           "day": 8,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -7856,7 +7856,7 @@
           "day": 8,
           "dow": "水",
           "dow_idx": 3,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -9456,21 +9456,8 @@
           "day": 8,
           "dow": "水",
           "dow_idx": 3,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜90分コース",
-              "times": [
-                "12:00"
-              ],
-              "slots": [
-                {
-                  "t": "12:00",
-                  "rm": 90
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-07-09",
@@ -10873,7 +10860,7 @@
           "day": 8,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -12357,7 +12344,7 @@
           "day": 8,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
