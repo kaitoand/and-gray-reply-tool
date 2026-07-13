@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 7,
-    "today": "2026-07-13",
-    "generated_at": "2026-07-13T23:48:54.988883+09:00"
+    "today": "2026-07-14",
+    "generated_at": "2026-07-14T00:04:04.586210+09:00"
   },
   "staff": {
     "KAITO": {
@@ -125,7 +125,7 @@
           "day": 13,
           "dow": "月",
           "dow_idx": 1,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -1519,7 +1519,7 @@
           "day": 13,
           "dow": "月",
           "dow_idx": 1,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -2494,7 +2494,7 @@
           "day": 13,
           "dow": "月",
           "dow_idx": 1,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -3381,7 +3381,7 @@
           "day": 13,
           "dow": "月",
           "dow_idx": 1,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -4363,7 +4363,7 @@
           "day": 13,
           "dow": "月",
           "dow_idx": 1,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -5198,7 +5198,7 @@
           "day": 13,
           "dow": "月",
           "dow_idx": 1,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -6259,7 +6259,7 @@
           "day": 13,
           "dow": "月",
           "dow_idx": 1,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -7585,21 +7585,8 @@
           "day": 13,
           "dow": "月",
           "dow_idx": 1,
-          "status": "available",
-          "groups": [
-            {
-              "label": "60分〜120分コース",
-              "times": [
-                "15:30"
-              ],
-              "slots": [
-                {
-                  "t": "15:30",
-                  "rm": 120
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-07-14",
@@ -9084,7 +9071,7 @@
           "day": 13,
           "dow": "月",
           "dow_idx": 1,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -10411,7 +10398,7 @@
           "day": 13,
           "dow": "月",
           "dow_idx": 1,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -11830,7 +11817,7 @@
           "day": 13,
           "dow": "月",
           "dow_idx": 1,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
