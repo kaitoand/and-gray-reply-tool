@@ -3,7 +3,7 @@
     "year": 2026,
     "month": 7,
     "today": "2026-07-17",
-    "generated_at": "2026-07-17T11:24:18.077900+09:00"
+    "generated_at": "2026-07-17T11:39:30.905208+09:00"
   },
   "staff": {
     "KAITO": {
@@ -3076,21 +3076,8 @@
           "day": 22,
           "dow": "火",
           "dow_idx": 2,
-          "status": "available",
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "13:30"
-              ],
-              "slots": [
-                {
-                  "t": "13:30",
-                  "rm": 240
-                }
-              ]
-            }
-          ]
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-09-23",
