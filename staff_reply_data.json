@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 7,
-    "today": "2026-07-19",
-    "generated_at": "2026-07-19T23:48:50.425900+09:00"
+    "today": "2026-07-20",
+    "generated_at": "2026-07-20T00:04:02.675550+09:00"
   },
   "staff": {
     "KAITO": {
@@ -179,7 +179,7 @@
           "day": 19,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -1536,7 +1536,7 @@
           "day": 19,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -2472,7 +2472,7 @@
           "day": 19,
           "dow": "日",
           "dow_idx": 0,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -3385,7 +3385,7 @@
           "day": 19,
           "dow": "日",
           "dow_idx": 0,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -4354,7 +4354,7 @@
           "day": 19,
           "dow": "日",
           "dow_idx": 0,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -5189,7 +5189,7 @@
           "day": 19,
           "dow": "日",
           "dow_idx": 0,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -6050,7 +6050,7 @@
           "day": 19,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -7326,7 +7326,7 @@
           "day": 19,
           "dow": "日",
           "dow_idx": 0,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -8752,7 +8752,7 @@
           "day": 19,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -10008,7 +10008,7 @@
           "day": 19,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
+          "status": "past",
           "groups": []
         },
         {
@@ -11347,7 +11347,7 @@
           "day": 19,
           "dow": "日",
           "dow_idx": 0,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
