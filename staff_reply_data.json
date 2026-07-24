@@ -3,7 +3,7 @@
     "year": 2026,
     "month": 7,
     "today": "2026-07-24",
-    "generated_at": "2026-07-24T10:46:23.463772+09:00"
+    "generated_at": "2026-07-24T11:01:37.627148+09:00"
   },
   "staff": {
     "KAITO": {
@@ -2997,7 +2997,7 @@
               "slots": [
                 {
                   "t": "13:30",
-                  "rm": 210
+                  "rm": 240
                 }
               ]
             }
@@ -3092,14 +3092,14 @@
           "status": "available",
           "groups": [
             {
-              "label": "60分〜180分コース",
+              "label": "なんでも",
               "times": [
                 "14:00"
               ],
               "slots": [
                 {
                   "t": "14:00",
-                  "rm": 180
+                  "rm": 210
                 }
               ]
             }
@@ -5637,14 +5637,14 @@
           "status": "available",
           "groups": [
             {
-              "label": "60分〜90分コース",
+              "label": "60分〜120分コース",
               "times": [
                 "15:30"
               ],
               "slots": [
                 {
                   "t": "15:30",
-                  "rm": 90
+                  "rm": 120
                 }
               ]
             }
@@ -5772,7 +5772,7 @@
               "slots": [
                 {
                   "t": "13:30",
-                  "rm": 210
+                  "rm": 240
                 }
               ]
             }
@@ -5812,7 +5812,7 @@
               "slots": [
                 {
                   "t": "13:30",
-                  "rm": 210
+                  "rm": 240
                 }
               ]
             }
@@ -6174,11 +6174,11 @@
               "slots": [
                 {
                   "t": "10:00",
-                  "rm": 420
+                  "rm": 450
                 },
                 {
                   "t": "13:30",
-                  "rm": 210
+                  "rm": 240
                 }
               ]
             }
@@ -8501,6 +8501,2145 @@
           "dow_idx": 6,
           "status": "off",
           "groups": []
+        }
+      ]
+    },
+    "NAMI": {
+      "display": "なみ",
+      "store": "船橋",
+      "is_kaito": false,
+      "days": [
+        {
+          "date": "2026-07-01",
+          "month": 7,
+          "day": 1,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-02",
+          "month": 7,
+          "day": 2,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-03",
+          "month": 7,
+          "day": 3,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-04",
+          "month": 7,
+          "day": 4,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-05",
+          "month": 7,
+          "day": 5,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-06",
+          "month": 7,
+          "day": 6,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-07",
+          "month": 7,
+          "day": 7,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-08",
+          "month": 7,
+          "day": 8,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-09",
+          "month": 7,
+          "day": 9,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-10",
+          "month": 7,
+          "day": 10,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-11",
+          "month": 7,
+          "day": 11,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-12",
+          "month": 7,
+          "day": 12,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-13",
+          "month": 7,
+          "day": 13,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-14",
+          "month": 7,
+          "day": 14,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-15",
+          "month": 7,
+          "day": 15,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-16",
+          "month": 7,
+          "day": 16,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-17",
+          "month": 7,
+          "day": 17,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-18",
+          "month": 7,
+          "day": 18,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-19",
+          "month": 7,
+          "day": 19,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-20",
+          "month": 7,
+          "day": 20,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-21",
+          "month": 7,
+          "day": 21,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-22",
+          "month": 7,
+          "day": 22,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-23",
+          "month": 7,
+          "day": 23,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-24",
+          "month": 7,
+          "day": 24,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-25",
+          "month": 7,
+          "day": 25,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-26",
+          "month": 7,
+          "day": 26,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-27",
+          "month": 7,
+          "day": 27,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-28",
+          "month": 7,
+          "day": 28,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-29",
+          "month": 7,
+          "day": 29,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-30",
+          "month": 7,
+          "day": 30,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-31",
+          "month": 7,
+          "day": 31,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-01",
+          "month": 8,
+          "day": 1,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-02",
+          "month": 8,
+          "day": 2,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-03",
+          "month": 8,
+          "day": 3,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-04",
+          "month": 8,
+          "day": 4,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-05",
+          "month": 8,
+          "day": 5,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-06",
+          "month": 8,
+          "day": 6,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-07",
+          "month": 8,
+          "day": 7,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-08",
+          "month": 8,
+          "day": 8,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-09",
+          "month": 8,
+          "day": 9,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-10",
+          "month": 8,
+          "day": 10,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-11",
+          "month": 8,
+          "day": 11,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-12",
+          "month": 8,
+          "day": 12,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-13",
+          "month": 8,
+          "day": 13,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-14",
+          "month": 8,
+          "day": 14,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-15",
+          "month": 8,
+          "day": 15,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-16",
+          "month": 8,
+          "day": 16,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-17",
+          "month": 8,
+          "day": 17,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-18",
+          "month": 8,
+          "day": 18,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-19",
+          "month": 8,
+          "day": 19,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-20",
+          "month": 8,
+          "day": 20,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-21",
+          "month": 8,
+          "day": 21,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-22",
+          "month": 8,
+          "day": 22,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-23",
+          "month": 8,
+          "day": 23,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-24",
+          "month": 8,
+          "day": 24,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-25",
+          "month": 8,
+          "day": 25,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 420
+                },
+                {
+                  "t": "13:30",
+                  "rm": 210
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-26",
+          "month": 8,
+          "day": 26,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-27",
+          "month": 8,
+          "day": 27,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-28",
+          "month": 8,
+          "day": 28,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-29",
+          "month": 8,
+          "day": 29,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-30",
+          "month": 8,
+          "day": 30,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-31",
+          "month": 8,
+          "day": 31,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-01",
+          "month": 9,
+          "day": 1,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "full",
+          "groups": []
+        },
+        {
+          "date": "2026-09-02",
+          "month": 9,
+          "day": 2,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "full",
+          "groups": []
+        },
+        {
+          "date": "2026-09-03",
+          "month": 9,
+          "day": 3,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-04",
+          "month": 9,
+          "day": 4,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "full",
+          "groups": []
+        },
+        {
+          "date": "2026-09-05",
+          "month": 9,
+          "day": 5,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
+        },
+        {
+          "date": "2026-09-06",
+          "month": 9,
+          "day": 6,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-07",
+          "month": 9,
+          "day": 7,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "full",
+          "groups": []
+        },
+        {
+          "date": "2026-09-08",
+          "month": 9,
+          "day": 8,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜90分コース",
+              "times": [
+                "12:00"
+              ],
+              "slots": [
+                {
+                  "t": "12:00",
+                  "rm": 90
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-09",
+          "month": 9,
+          "day": 9,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-10",
+          "month": 9,
+          "day": 10,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "full",
+          "groups": []
+        },
+        {
+          "date": "2026-09-11",
+          "month": 9,
+          "day": 11,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "full",
+          "groups": []
+        },
+        {
+          "date": "2026-09-12",
+          "month": 9,
+          "day": 12,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
+        },
+        {
+          "date": "2026-09-13",
+          "month": 9,
+          "day": 13,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
+        },
+        {
+          "date": "2026-09-14",
+          "month": 9,
+          "day": 14,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-15",
+          "month": 9,
+          "day": 15,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-16",
+          "month": 9,
+          "day": 16,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "full",
+          "groups": []
+        },
+        {
+          "date": "2026-09-17",
+          "month": 9,
+          "day": 17,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-18",
+          "month": 9,
+          "day": 18,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "full",
+          "groups": []
+        },
+        {
+          "date": "2026-09-19",
+          "month": 9,
+          "day": 19,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ],
+              "slots": [
+                {
+                  "t": "15:30",
+                  "rm": 120
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-20",
+          "month": 9,
+          "day": 20,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "full",
+          "groups": []
+        },
+        {
+          "date": "2026-09-21",
+          "month": 9,
+          "day": 21,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-22",
+          "month": 9,
+          "day": 22,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "month": 9,
+          "day": 23,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "11:30"
+              ],
+              "slots": [
+                {
+                  "t": "11:30",
+                  "rm": 360
+                }
+              ]
+            },
+            {
+              "label": "60分〜150分コース",
+              "times": [
+                "15:00"
+              ],
+              "slots": [
+                {
+                  "t": "15:00",
+                  "rm": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "month": 9,
+          "day": 24,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-25",
+          "month": 9,
+          "day": 25,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "60分〜180分コース",
+              "times": [
+                "14:30"
+              ],
+              "slots": [
+                {
+                  "t": "14:30",
+                  "rm": 180
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "month": 9,
+          "day": 26,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "full",
+          "groups": []
+        },
+        {
+          "date": "2026-09-27",
+          "month": 9,
+          "day": 27,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "12:00"
+              ],
+              "slots": [
+                {
+                  "t": "12:00",
+                  "rm": 330
+                }
+              ]
+            },
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ],
+              "slots": [
+                {
+                  "t": "15:30",
+                  "rm": 120
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-28",
+          "month": 9,
+          "day": 28,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-29",
+          "month": 9,
+          "day": 29,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-30",
+          "month": 9,
+          "day": 30,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-01",
+          "month": 10,
+          "day": 1,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-02",
+          "month": 10,
+          "day": 2,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 210
+                }
+              ]
+            },
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ],
+              "slots": [
+                {
+                  "t": "15:30",
+                  "rm": 120
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-03",
+          "month": 10,
+          "day": 3,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "12:00"
+              ],
+              "slots": [
+                {
+                  "t": "12:00",
+                  "rm": 330
+                }
+              ]
+            },
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ],
+              "slots": [
+                {
+                  "t": "15:30",
+                  "rm": 120
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-04",
+          "month": 10,
+          "day": 4,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-05",
+          "month": 10,
+          "day": 5,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-06",
+          "month": 10,
+          "day": 6,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "month": 10,
+          "day": 7,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "11:30"
+              ],
+              "slots": [
+                {
+                  "t": "11:30",
+                  "rm": 360
+                }
+              ]
+            },
+            {
+              "label": "60分〜150分コース",
+              "times": [
+                "15:00"
+              ],
+              "slots": [
+                {
+                  "t": "15:00",
+                  "rm": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-08",
+          "month": 10,
+          "day": 8,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-09",
+          "month": 10,
+          "day": 9,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "month": 10,
+          "day": 10,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-11",
+          "month": 10,
+          "day": 11,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-12",
+          "month": 10,
+          "day": 12,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 210
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "month": 10,
+          "day": 13,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:00"
+              ],
+              "slots": [
+                {
+                  "t": "13:00",
+                  "rm": 270
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "month": 10,
+          "day": 14,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 300
+                }
+              ]
+            },
+            {
+              "label": "60分〜90分コース",
+              "times": [
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "13:30",
+                  "rm": 90
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "month": 10,
+          "day": 15,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-16",
+          "month": 10,
+          "day": 16,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "month": 10,
+          "day": 17,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-18",
+          "month": 10,
+          "day": 18,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 210
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-19",
+          "month": 10,
+          "day": 19,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-20",
+          "month": 10,
+          "day": 20,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "month": 10,
+          "day": 21,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "month": 10,
+          "day": 22,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-23",
+          "month": 10,
+          "day": 23,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-24",
+          "month": 10,
+          "day": 24,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-25",
+          "month": 10,
+          "day": 25,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "12:00"
+              ],
+              "slots": [
+                {
+                  "t": "12:00",
+                  "rm": 330
+                }
+              ]
+            },
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ],
+              "slots": [
+                {
+                  "t": "15:30",
+                  "rm": 120
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-26",
+          "month": 10,
+          "day": 26,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-27",
+          "month": 10,
+          "day": 27,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-28",
+          "month": 10,
+          "day": 28,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-29",
+          "month": 10,
+          "day": 29,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-30",
+          "month": 10,
+          "day": 30,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-31",
+          "month": 10,
+          "day": 31,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -11251,21 +13390,8 @@
           "day": 7,
           "dow": "月",
           "dow_idx": 1,
-          "status": "available",
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "14:00"
-              ],
-              "slots": [
-                {
-                  "t": "14:00",
-                  "rm": 210
-                }
-              ]
-            }
-          ]
+          "status": "full",
+          "groups": []
         },
         {
           "date": "2026-09-08",
@@ -14706,18 +16832,25 @@
           "status": "available",
           "groups": [
             {
-              "label": "60分〜90分コース",
+              "label": "60分〜120分コース",
               "times": [
-                "13:30",
                 "15:30"
               ],
               "slots": [
                 {
-                  "t": "13:30",
-                  "rm": 90
-                },
-                {
                   "t": "15:30",
+                  "rm": 120
+                }
+              ]
+            },
+            {
+              "label": "60分〜90分コース",
+              "times": [
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "13:30",
                   "rm": 90
                 }
               ]
@@ -17922,6 +20055,2238 @@
           "dow_idx": 5,
           "status": "off",
           "groups": []
+        },
+        {
+          "date": "2026-10-31",
+          "month": 10,
+          "day": 31,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "yuri": {
+      "display": "ゆり",
+      "store": "東京",
+      "is_kaito": false,
+      "days": [
+        {
+          "date": "2026-07-01",
+          "month": 7,
+          "day": 1,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-02",
+          "month": 7,
+          "day": 2,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-03",
+          "month": 7,
+          "day": 3,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-04",
+          "month": 7,
+          "day": 4,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-05",
+          "month": 7,
+          "day": 5,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-06",
+          "month": 7,
+          "day": 6,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-07",
+          "month": 7,
+          "day": 7,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-08",
+          "month": 7,
+          "day": 8,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-09",
+          "month": 7,
+          "day": 9,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-10",
+          "month": 7,
+          "day": 10,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-11",
+          "month": 7,
+          "day": 11,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-12",
+          "month": 7,
+          "day": 12,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-13",
+          "month": 7,
+          "day": 13,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-14",
+          "month": 7,
+          "day": 14,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-15",
+          "month": 7,
+          "day": 15,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-16",
+          "month": 7,
+          "day": 16,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-17",
+          "month": 7,
+          "day": 17,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-18",
+          "month": 7,
+          "day": 18,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-19",
+          "month": 7,
+          "day": 19,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-20",
+          "month": 7,
+          "day": 20,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-21",
+          "month": 7,
+          "day": 21,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-22",
+          "month": 7,
+          "day": 22,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-23",
+          "month": 7,
+          "day": 23,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "past",
+          "groups": []
+        },
+        {
+          "date": "2026-07-24",
+          "month": 7,
+          "day": 24,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-07-25",
+          "month": 7,
+          "day": 25,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-07-26",
+          "month": 7,
+          "day": 26,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-07-27",
+          "month": 7,
+          "day": 27,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-07-28",
+          "month": 7,
+          "day": 28,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-07-29",
+          "month": 7,
+          "day": 29,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-07-30",
+          "month": 7,
+          "day": 30,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-07-31",
+          "month": 7,
+          "day": 31,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-01",
+          "month": 8,
+          "day": 1,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-02",
+          "month": 8,
+          "day": 2,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 420
+                },
+                {
+                  "t": "13:30",
+                  "rm": 210
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-03",
+          "month": 8,
+          "day": 3,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-04",
+          "month": 8,
+          "day": 4,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-05",
+          "month": 8,
+          "day": 5,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-06",
+          "month": 8,
+          "day": 6,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-07",
+          "month": 8,
+          "day": 7,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-08",
+          "month": 8,
+          "day": 8,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-09",
+          "month": 8,
+          "day": 9,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-10",
+          "month": 8,
+          "day": 10,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-11",
+          "month": 8,
+          "day": 11,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-12",
+          "month": 8,
+          "day": 12,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-13",
+          "month": 8,
+          "day": 13,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-14",
+          "month": 8,
+          "day": 14,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-15",
+          "month": 8,
+          "day": 15,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-16",
+          "month": 8,
+          "day": 16,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-17",
+          "month": 8,
+          "day": 17,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-18",
+          "month": 8,
+          "day": 18,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-19",
+          "month": 8,
+          "day": 19,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-20",
+          "month": 8,
+          "day": 20,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-21",
+          "month": 8,
+          "day": 21,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-22",
+          "month": 8,
+          "day": 22,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-23",
+          "month": 8,
+          "day": 23,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-24",
+          "month": 8,
+          "day": 24,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-25",
+          "month": 8,
+          "day": 25,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-26",
+          "month": 8,
+          "day": 26,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-27",
+          "month": 8,
+          "day": 27,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-08-28",
+          "month": 8,
+          "day": 28,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-29",
+          "month": 8,
+          "day": 29,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-30",
+          "month": 8,
+          "day": 30,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-31",
+          "month": 8,
+          "day": 31,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-01",
+          "month": 9,
+          "day": 1,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-02",
+          "month": 9,
+          "day": 2,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-03",
+          "month": 9,
+          "day": 3,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-04",
+          "month": 9,
+          "day": 4,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-05",
+          "month": 9,
+          "day": 5,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-06",
+          "month": 9,
+          "day": 6,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-07",
+          "month": 9,
+          "day": 7,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-08",
+          "month": 9,
+          "day": 8,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-09",
+          "month": 9,
+          "day": 9,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-10",
+          "month": 9,
+          "day": 10,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-11",
+          "month": 9,
+          "day": 11,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-12",
+          "month": 9,
+          "day": 12,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-13",
+          "month": 9,
+          "day": 13,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "12:00"
+              ],
+              "slots": [
+                {
+                  "t": "12:00",
+                  "rm": 330
+                }
+              ]
+            },
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ],
+              "slots": [
+                {
+                  "t": "15:30",
+                  "rm": 120
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-14",
+          "month": 9,
+          "day": 14,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-15",
+          "month": 9,
+          "day": 15,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-16",
+          "month": 9,
+          "day": 16,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-17",
+          "month": 9,
+          "day": 17,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-18",
+          "month": 9,
+          "day": 18,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-19",
+          "month": 9,
+          "day": 19,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-20",
+          "month": 9,
+          "day": 20,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-21",
+          "month": 9,
+          "day": 21,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-22",
+          "month": 9,
+          "day": 22,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-23",
+          "month": 9,
+          "day": 23,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "month": 9,
+          "day": 24,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-25",
+          "month": 9,
+          "day": 25,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-26",
+          "month": 9,
+          "day": 26,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-27",
+          "month": 9,
+          "day": 27,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-28",
+          "month": 9,
+          "day": 28,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-09-29",
+          "month": 9,
+          "day": 29,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-30",
+          "month": 9,
+          "day": 30,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "month": 10,
+          "day": 1,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-02",
+          "month": 10,
+          "day": 2,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-03",
+          "month": 10,
+          "day": 3,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-04",
+          "month": 10,
+          "day": 4,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-05",
+          "month": 10,
+          "day": 5,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-06",
+          "month": 10,
+          "day": 6,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "month": 10,
+          "day": 7,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-08",
+          "month": 10,
+          "day": 8,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-09",
+          "month": 10,
+          "day": 9,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "month": 10,
+          "day": 10,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-11",
+          "month": 10,
+          "day": 11,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-12",
+          "month": 10,
+          "day": 12,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-13",
+          "month": 10,
+          "day": 13,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "month": 10,
+          "day": 14,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-15",
+          "month": 10,
+          "day": 15,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-16",
+          "month": 10,
+          "day": 16,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "month": 10,
+          "day": 17,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-18",
+          "month": 10,
+          "day": 18,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-19",
+          "month": 10,
+          "day": 19,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-20",
+          "month": 10,
+          "day": 20,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "month": 10,
+          "day": 21,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "month": 10,
+          "day": 22,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-23",
+          "month": 10,
+          "day": 23,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-24",
+          "month": 10,
+          "day": 24,
+          "dow": "土",
+          "dow_idx": 6,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-25",
+          "month": 10,
+          "day": 25,
+          "dow": "日",
+          "dow_idx": 0,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-26",
+          "month": 10,
+          "day": 26,
+          "dow": "月",
+          "dow_idx": 1,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-27",
+          "month": 10,
+          "day": 27,
+          "dow": "火",
+          "dow_idx": 2,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-28",
+          "month": 10,
+          "day": 28,
+          "dow": "水",
+          "dow_idx": 3,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-29",
+          "month": 10,
+          "day": 29,
+          "dow": "木",
+          "dow_idx": 4,
+          "status": "off",
+          "groups": []
+        },
+        {
+          "date": "2026-10-30",
+          "month": 10,
+          "day": 30,
+          "dow": "金",
+          "dow_idx": 5,
+          "status": "available",
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00",
+                "13:30"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 450
+                },
+                {
+                  "t": "13:30",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
         },
         {
           "date": "2026-10-31",
