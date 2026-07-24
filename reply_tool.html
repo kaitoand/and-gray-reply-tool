@@ -199,6 +199,10 @@ function getOfferedSlotsForStaff(staffSlots, validLabels, menuMin, fallbackLabel
   // ① 詰めた primary でメニューに一致するもの
   for(const s of staffSlots){
     if(validLabels.has(s.label) && !seen.has(s.t)){
+      // ★「なんでも」は rm≥210 の総称なので、ラベル一致だけだと 240分メニュー等で
+      //   閉店超過の枠(例: 14:00 rm=210 → 14:00+240=18:00)を弾けない。rmが分かる場合は
+      //   実際に menuMin 入るかも確認する(②anchorループの canStaffFitAt と同じ考え方)。
+      if(s.rm && s.rm < menuMin) continue;
       out.push({t:s.t, label:s.label});
       seen.add(s.t);
     }
