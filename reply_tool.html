@@ -94,6 +94,8 @@
       <option value="180">180分</option>
       <option value="210">210分</option>
         <option value="240">240分</option>
+      <option value="c30">💬 無料相談30分（隙間枠）</option>
+      <option value="c45">💬 無料相談45分（隙間枠）</option>
     </select>
   </div>
 
@@ -219,6 +221,24 @@ function getOfferedSlotsForStaff(staffSlots, validLabels, menuMin, fallbackLabel
   return out;
 }
 
+// ── 無料相談(隙間枠)ヘルパー ────────────────────────────────
+// consultMin=30/45 のとき day.consult[consultMin] をそのまま提示時刻に。0=通常メニュー。
+function consultTimesOf(day, consultMin){
+  const arr = (day && day.consult && day.consult[String(consultMin)]) || [];
+  return arr.map(t=>({t, label:`無料相談${consultMin}分`}));
+}
+// その日を返信対象に含めるか: 相談は満席日の隙間にもあるので status ではなく consult有無で判定。
+function dayIncluded(d, from, to, consultMin){
+  if(d.date < from || d.date > to) return false;
+  if(consultMin) return !!(d.consult && (d.consult[String(consultMin)]||[]).length);
+  return d.status === 'available';
+}
+// 統一 offered: 相談モードなら consult、通常なら従来ロジック。
+function offeredForDay(day, validLabels, menuMin, fallbackLabel, consultMin){
+  if(consultMin) return consultTimesOf(day, consultMin);
+  return getOfferedSlotsForStaff(getDaySlots(day), validLabels, menuMin, fallbackLabel);
+}
+
 async function loadData(){
   try{
     const res = await fetch('staff_reply_data.json');
@@ -280,7 +300,9 @@ function fmt(d){
 
 function generate(){
   if(!staffData){ showError('データが読み込まれていません。'); return; }
-  const menuMin = parseInt(document.getElementById('sel-menu').value);
+  const menuValRaw = document.getElementById('sel-menu').value;
+  const consultMin = menuValRaw[0] === 'c' ? parseInt(menuValRaw.slice(1)) : 0; // 30/45 or 0
+  const menuMin = consultMin || parseInt(menuValRaw);
   const from    = document.getElementById('date-from').value;
   const to      = document.getElementById('date-to').value;
   if(!from||!to){ showError('表示期間を入力してください。'); return; }
@@ -303,8 +325,8 @@ function generate(){
   setTimeout(()=>{
     try{
       const result = currentMode === 'anon'
-        ? buildReplyAnon(menuMin,from,to,excluded,store)
-        : buildReply(staffKey,menuMin,from,to,excluded);
+        ? buildReplyAnon(menuMin,from,to,excluded,store,consultMin)
+        : buildReply(staffKey,menuMin,from,to,excluded,consultMin);
       renderResult(result);
     }
     catch(e){ showError('生成エラー: '+e.message); }
@@ -312,7 +334,8 @@ function generate(){
   },50);
 }
 
-function buildReply(staffKey,menuMin,from,to,excluded){
+function buildReply(staffKey,menuMin,from,to,excluded,consultMin){
+  consultMin = consultMin || 0;
   const myStaff = staffData.staff[staffKey];
   const validLabels = new Set(MENU_LABELS[menuMin]||[]);
   const fallbackLabel = labelForMenuMin(menuMin);
@@ -324,10 +347,10 @@ function buildReply(staffKey,menuMin,from,to,excluded){
   Object.entries(staffData.staff).forEach(([k, s]) => {
     if(excluded.has(k) && k !== staffKey) return;
     s.days
-      .filter(d=>d.date>=from && d.date<=to && d.status==='available')
+      .filter(d=>dayIncluded(d,from,to,consultMin))
       .forEach(d=>{
         if(!byDate[d.date]) byDate[d.date] = {month:d.month, day:d.day, dow:d.dow, slotsByStaff:{}};
-        byDate[d.date].slotsByStaff[k] = {display:s.display, store:s.store, slots:getDaySlots(d)};
+        byDate[d.date].slotsByStaff[k] = {display:s.display, store:s.store, slots:getDaySlots(d), day:d};
       });
   });
 
@@ -336,8 +359,8 @@ function buildReply(staffKey,menuMin,from,to,excluded){
   for(const date of Object.keys(byDate).sort()){
     const dayObj = byDate[date];
     const me = dayObj.slotsByStaff[staffKey];
-    if(!me || !me.slots.length) continue;
-    const offered = getOfferedSlotsForStaff(me.slots, validLabels, menuMin, fallbackLabel);
+    if(!me) continue;
+    const offered = offeredForDay(me.day, validLabels, menuMin, fallbackLabel, consultMin);
     if(!offered.length) continue;
     const parts = offered.map(o=> `${o.t} ${o.label}`);
     myLines.push(`${dayObj.month}/${dayObj.day}(${dayObj.dow}) ${parts.join(' / ')}`);
@@ -351,7 +374,7 @@ function buildReply(staffKey,menuMin,from,to,excluded){
     for(const k of Object.keys(dayObj.slotsByStaff)){
       if(k === staffKey) continue;
       const so = dayObj.slotsByStaff[k];
-      const offered = getOfferedSlotsForStaff(so.slots, validLabels, menuMin, fallbackLabel);
+      const offered = offeredForDay(so.day, validLabels, menuMin, fallbackLabel, consultMin);
       for(const o of offered){
         if(!perStoreTime[so.store]) perStoreTime[so.store] = {};
         if(!perStoreTime[so.store][o.t]) perStoreTime[so.store][o.t] = [];
@@ -395,7 +418,8 @@ function buildReply(staffKey,menuMin,from,to,excluded){
 
 // 名前なしモード：全担当の空きを店舗別・日付ごとに集約 + 吸収フォールバック (T) も含める
 // (※ 吸収は「その日メニュー一致 primary がゼロ件」のときだけ自動表示=機会損失救済)
-function buildReplyAnon(menuMin,from,to,excluded,storeFilter){
+function buildReplyAnon(menuMin,from,to,excluded,storeFilter,consultMin){
+  consultMin = consultMin || 0;
   const validLabels = new Set(MENU_LABELS[menuMin]||[]);
 
   // store -> date -> {month,day,dow, slotsByStaff: {staffKey: [{t,label,rm}]}}
@@ -404,11 +428,11 @@ function buildReplyAnon(menuMin,from,to,excluded,storeFilter){
     if(excluded.has(k)) return;
     if(storeFilter!=='both' && s.store!==storeFilter) return;
     s.days
-      .filter(d=>d.date>=from && d.date<=to && d.status==='available')
+      .filter(d=>dayIncluded(d,from,to,consultMin))
       .forEach(d=>{
         if(!byStoreDate[s.store]) byStoreDate[s.store] = {};
         if(!byStoreDate[s.store][d.date]) byStoreDate[s.store][d.date] = {month:d.month, day:d.day, dow:d.dow, slotsByStaff:{}};
-        byStoreDate[s.store][d.date].slotsByStaff[k] = getDaySlots(d);
+        byStoreDate[s.store][d.date].slotsByStaff[k] = d;
       });
   });
 
@@ -425,7 +449,7 @@ function buildReplyAnon(menuMin,from,to,excluded,storeFilter){
         // 各スタッフの offered (詰め primary + 10:00/13:30 anchor) の時刻だけ和集合で集める
         const offeredTimes = new Set();
         for(const k of Object.keys(d.slotsByStaff)){
-          const offered = getOfferedSlotsForStaff(d.slotsByStaff[k], validLabels, menuMin, fallbackLabel);
+          const offered = offeredForDay(d.slotsByStaff[k], validLabels, menuMin, fallbackLabel, consultMin);
           for(const o of offered) offeredTimes.add(o.t);
         }
         if(offeredTimes.size){
