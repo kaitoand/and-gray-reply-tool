@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 8,
-    "today": "2026-08-12",
-    "generated_at": "2026-08-12T23:49:55.909517+09:00"
+    "today": "2026-08-13",
+    "generated_at": "2026-08-13T00:05:09.627261+09:00"
   },
   "staff": {
     "KAITO": {
@@ -116,25 +116,8 @@
           "day": 12,
           "dow": "水",
           "dow_idx": 3,
-          "status": "available",
-          "consult": {
-            "30": [],
-            "45": []
-          },
-          "groups": [
-            {
-              "label": "60分〜120分コース",
-              "times": [
-                "15:30"
-              ],
-              "slots": [
-                {
-                  "t": "15:30",
-                  "rm": 120
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-08-13",
@@ -1910,14 +1893,8 @@
           "day": 12,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-08-13",
@@ -3082,7 +3059,7 @@
           "day": 12,
           "dow": "水",
           "dow_idx": 3,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -4387,14 +4364,8 @@
           "day": 12,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-08-13",
@@ -5636,7 +5607,7 @@
           "day": 12,
           "dow": "水",
           "dow_idx": 3,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -6471,7 +6442,7 @@
           "day": 12,
           "dow": "水",
           "dow_idx": 3,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -7394,7 +7365,7 @@
           "day": 12,
           "dow": "水",
           "dow_idx": 3,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -8718,37 +8689,8 @@
           "day": 12,
           "dow": "水",
           "dow_idx": 3,
-          "status": "available",
-          "consult": {
-            "30": [],
-            "45": []
-          },
-          "groups": [
-            {
-              "label": "60分〜150分コース",
-              "times": [
-                "15:00"
-              ],
-              "slots": [
-                {
-                  "t": "15:00",
-                  "rm": 150
-                }
-              ]
-            },
-            {
-              "label": "60分〜120分コース",
-              "times": [
-                "10:00"
-              ],
-              "slots": [
-                {
-                  "t": "10:00",
-                  "rm": 120
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-08-13",
@@ -10456,14 +10398,8 @@
           "day": 12,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "16:30"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-08-13",
@@ -12206,17 +12142,8 @@
           "day": 12,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "12:30",
-              "17:00"
-            ],
-            "45": [
-              "12:30"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-08-13",
@@ -13873,14 +13800,8 @@
           "day": 12,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-08-13",
@@ -15643,30 +15564,8 @@
           "day": 12,
           "dow": "水",
           "dow_idx": 3,
-          "status": "available",
-          "consult": {
-            "30": [
-              "11:00",
-              "16:30"
-            ],
-            "45": [
-              "16:30"
-            ]
-          },
-          "groups": [
-            {
-              "label": "60分〜90分コース",
-              "times": [
-                "14:00"
-              ],
-              "slots": [
-                {
-                  "t": "14:00",
-                  "rm": 90
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-08-13",
@@ -17428,7 +17327,7 @@
           "day": 12,
           "dow": "水",
           "dow_idx": 3,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
