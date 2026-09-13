@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 9,
-    "today": "2026-09-13",
-    "generated_at": "2026-09-13T23:46:35.548327+09:00"
+    "today": "2026-09-14",
+    "generated_at": "2026-09-14T00:01:43.593312+09:00"
   },
   "staff": {
     "KAITO": {
@@ -125,12 +125,8 @@
           "day": 13,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-09-14",
@@ -1784,17 +1780,8 @@
           "day": 13,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "12:30",
-              "17:00"
-            ],
-            "45": [
-              "12:30"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-09-14",
@@ -2935,14 +2922,8 @@
           "day": 13,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-09-14",
@@ -4218,7 +4199,7 @@
           "day": 13,
           "dow": "日",
           "dow_idx": 0,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -5452,7 +5433,7 @@
           "day": 13,
           "dow": "日",
           "dow_idx": 0,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -6278,7 +6259,7 @@
           "day": 13,
           "dow": "日",
           "dow_idx": 0,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -7104,16 +7085,8 @@
           "day": 13,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "16:30"
-            ],
-            "45": [
-              "16:30"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-09-14",
@@ -8384,12 +8357,8 @@
           "day": 13,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-09-14",
@@ -10060,7 +10029,7 @@
           "day": 13,
           "dow": "日",
           "dow_idx": 0,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -11676,16 +11645,8 @@
           "day": 13,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "16:20"
-            ],
-            "45": [
-              "16:20"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-09-14",
@@ -13317,17 +13278,8 @@
           "day": 13,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "13:00",
-              "16:45"
-            ],
-            "45": [
-              "16:45"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-09-14",
@@ -14995,7 +14947,7 @@
           "day": 13,
           "dow": "日",
           "dow_idx": 0,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -16590,12 +16542,8 @@
           "day": 13,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-09-14",
