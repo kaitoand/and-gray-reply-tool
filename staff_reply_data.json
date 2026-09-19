@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 9,
-    "today": "2026-09-19",
-    "generated_at": "2026-09-19T23:55:47.162125+09:00"
+    "today": "2026-09-20",
+    "generated_at": "2026-09-20T00:11:00.221825+09:00"
   },
   "staff": {
     "KAITO": {
@@ -179,7 +179,7 @@
           "day": 19,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -1767,12 +1767,8 @@
           "day": 19,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-09-20",
@@ -2891,7 +2887,7 @@
           "day": 19,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -4094,14 +4090,8 @@
           "day": 19,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-09-20",
@@ -5253,7 +5243,7 @@
           "day": 19,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -6079,7 +6069,7 @@
           "day": 19,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -6905,12 +6895,8 @@
           "day": 19,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-09-20",
@@ -8168,7 +8154,7 @@
           "day": 19,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -9701,12 +9687,8 @@
           "day": 19,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-09-20",
@@ -11281,14 +11263,8 @@
           "day": 19,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-09-20",
@@ -12824,7 +12800,7 @@
           "day": 19,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -14411,17 +14387,8 @@
           "day": 19,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "15:30",
-              "16:30"
-            ],
-            "45": [
-              "16:30"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-09-20",
@@ -15990,14 +15957,8 @@
           "day": 19,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-09-20",
