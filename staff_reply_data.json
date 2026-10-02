@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 10,
-    "today": "2026-10-02",
-    "generated_at": "2026-10-02T23:47:01.956136+09:00"
+    "today": "2026-10-03",
+    "generated_at": "2026-10-03T00:02:11.161166+09:00"
   },
   "staff": {
     "KAITO": {
@@ -26,25 +26,8 @@
           "day": 2,
           "dow": "金",
           "dow_idx": 5,
-          "status": "available",
-          "consult": {
-            "30": [],
-            "45": []
-          },
-          "groups": [
-            {
-              "label": "60分〜180分コース",
-              "times": [
-                "14:00"
-              ],
-              "slots": [
-                {
-                  "t": "14:00",
-                  "rm": 180
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-03",
@@ -1902,7 +1885,7 @@
           "day": 2,
           "dow": "金",
           "dow_idx": 5,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -3069,14 +3052,8 @@
           "day": 2,
           "dow": "金",
           "dow_idx": 5,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "11:30"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-03",
@@ -4295,12 +4272,8 @@
           "day": 2,
           "dow": "金",
           "dow_idx": 5,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-03",
@@ -5563,7 +5536,7 @@
           "day": 2,
           "dow": "金",
           "dow_idx": 5,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -6398,7 +6371,7 @@
           "day": 2,
           "dow": "金",
           "dow_idx": 5,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -7233,12 +7206,8 @@
           "day": 2,
           "dow": "金",
           "dow_idx": 5,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-03",
@@ -8567,7 +8536,7 @@
           "day": 2,
           "dow": "金",
           "dow_idx": 5,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -10332,16 +10301,8 @@
           "day": 2,
           "dow": "金",
           "dow_idx": 5,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "16:30"
-            ],
-            "45": [
-              "16:30"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-03",
@@ -12133,7 +12094,7 @@
           "day": 2,
           "dow": "金",
           "dow_idx": 5,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -13879,42 +13840,8 @@
           "day": 2,
           "dow": "金",
           "dow_idx": 5,
-          "status": "available",
-          "consult": {
-            "30": [],
-            "45": []
-          },
-          "groups": [
-            {
-              "label": "60分〜120分コース",
-              "times": [
-                "10:00",
-                "15:30"
-              ],
-              "slots": [
-                {
-                  "t": "10:00",
-                  "rm": 120
-                },
-                {
-                  "t": "15:30",
-                  "rm": 120
-                }
-              ]
-            },
-            {
-              "label": "60分〜90分コース",
-              "times": [
-                "13:30"
-              ],
-              "slots": [
-                {
-                  "t": "13:30",
-                  "rm": 90
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-03",
@@ -15599,12 +15526,8 @@
           "day": 2,
           "dow": "金",
           "dow_idx": 5,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-03",
@@ -17354,12 +17277,8 @@
           "day": 2,
           "dow": "金",
           "dow_idx": 5,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-03",
