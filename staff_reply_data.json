@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 10,
-    "today": "2026-10-06",
-    "generated_at": "2026-10-06T23:48:36.133983+09:00"
+    "today": "2026-10-07",
+    "generated_at": "2026-10-07T00:03:47.753110+09:00"
   },
   "staff": {
     "KAITO": {
@@ -62,7 +62,7 @@
           "day": 6,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -1873,7 +1873,7 @@
           "day": 6,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -3042,16 +3042,8 @@
           "day": 6,
           "dow": "火",
           "dow_idx": 2,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "16:45"
-            ],
-            "45": [
-              "16:45"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-07",
@@ -4235,12 +4227,8 @@
           "day": 6,
           "dow": "火",
           "dow_idx": 2,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-07",
@@ -5420,7 +5408,7 @@
           "day": 6,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -6255,7 +6243,7 @@
           "day": 6,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -7090,12 +7078,8 @@
           "day": 6,
           "dow": "火",
           "dow_idx": 2,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-07",
@@ -8345,14 +8329,8 @@
           "day": 6,
           "dow": "火",
           "dow_idx": 2,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-07",
@@ -10052,17 +10030,8 @@
           "day": 6,
           "dow": "火",
           "dow_idx": 2,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "12:30",
-              "17:00"
-            ],
-            "45": [
-              "12:30"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-07",
@@ -11792,7 +11761,7 @@
           "day": 6,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -13505,7 +13474,7 @@
           "day": 6,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -15112,7 +15081,7 @@
           "day": 6,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -15139,7 +15108,6 @@
           "consult": {
             "30": [
               "10:30",
-              "14:30",
               "17:00"
             ],
             "45": []
@@ -16827,16 +16795,8 @@
           "day": 6,
           "dow": "火",
           "dow_idx": 2,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "16:30"
-            ],
-            "45": [
-              "16:30"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-07",
