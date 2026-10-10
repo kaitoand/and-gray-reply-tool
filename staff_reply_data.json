@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 10,
-    "today": "2026-10-10",
-    "generated_at": "2026-10-10T23:53:10.717555+09:00"
+    "today": "2026-10-11",
+    "generated_at": "2026-10-11T00:08:22.005230+09:00"
   },
   "staff": {
     "KAITO": {
@@ -98,7 +98,7 @@
           "day": 10,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -1790,14 +1790,8 @@
           "day": 10,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-11",
@@ -2951,7 +2945,7 @@
           "day": 10,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -4115,12 +4109,8 @@
           "day": 10,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-11",
@@ -5258,7 +5248,7 @@
           "day": 10,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -6093,7 +6083,7 @@
           "day": 10,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -6928,12 +6918,8 @@
           "day": 10,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-11",
@@ -8117,7 +8103,7 @@
           "day": 10,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -9786,7 +9772,7 @@
           "day": 10,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -11424,14 +11410,8 @@
           "day": 10,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "10:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-11",
@@ -13088,14 +13068,8 @@
           "day": 10,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-11",
@@ -14650,16 +14624,8 @@
           "day": 10,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "16:30"
-            ],
-            "45": [
-              "16:30"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-11",
@@ -16308,17 +16274,8 @@
           "day": 10,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "12:30",
-              "17:00"
-            ],
-            "45": [
-              "12:30"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-11",
