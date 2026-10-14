@@ -3,7 +3,7 @@
     "year": 2026,
     "month": 10,
     "today": "2026-10-14",
-    "generated_at": "2026-10-14T11:55:21.573003+09:00"
+    "generated_at": "2026-10-14T12:10:32.775746+09:00"
   },
   "staff": {
     "KAITO": {
@@ -2947,12 +2947,25 @@
           "day": 18,
           "dow": "日",
           "dow_idx": 0,
-          "status": "full",
-          "groups": [],
+          "status": "available",
           "consult": {
             "30": [],
             "45": []
-          }
+          },
+          "groups": [
+            {
+              "label": "60分〜120分コース",
+              "times": [
+                "15:30"
+              ],
+              "slots": [
+                {
+                  "t": "15:30",
+                  "rm": 120
+                }
+              ]
+            }
+          ]
         },
         {
           "date": "2026-10-19",
@@ -16203,25 +16216,12 @@
           "day": 25,
           "dow": "日",
           "dow_idx": 0,
-          "status": "available",
+          "status": "full",
+          "groups": [],
           "consult": {
             "30": [],
             "45": []
-          },
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "14:00"
-              ],
-              "slots": [
-                {
-                  "t": "14:00",
-                  "rm": 210
-                }
-              ]
-            }
-          ]
+          }
         },
         {
           "date": "2026-10-26",
@@ -16924,12 +16924,25 @@
           "day": 28,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
+          "status": "available",
           "consult": {
             "30": [],
             "45": []
-          }
+          },
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "14:00"
+              ],
+              "slots": [
+                {
+                  "t": "14:00",
+                  "rm": 210
+                }
+              ]
+            }
+          ]
         },
         {
           "date": "2026-11-29",
