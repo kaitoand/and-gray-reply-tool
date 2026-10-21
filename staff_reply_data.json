@@ -3,7 +3,7 @@
     "year": 2026,
     "month": 10,
     "today": "2026-10-21",
-    "generated_at": "2026-10-21T09:51:38.363095+09:00"
+    "generated_at": "2026-10-21T10:06:54.912788+09:00"
   },
   "staff": {
     "KAITO": {
@@ -8653,25 +8653,12 @@
           "day": 2,
           "dow": "水",
           "dow_idx": 3,
-          "status": "available",
+          "status": "full",
+          "groups": [],
           "consult": {
             "30": [],
             "45": []
-          },
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "13:30"
-              ],
-              "slots": [
-                {
-                  "t": "13:30",
-                  "rm": 240
-                }
-              ]
-            }
-          ]
+          }
         },
         {
           "date": "2026-12-03",
@@ -9029,12 +9016,25 @@
           "day": 23,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
-          "groups": [],
+          "status": "available",
           "consult": {
             "30": [],
             "45": []
-          }
+          },
+          "groups": [
+            {
+              "label": "なんでも",
+              "times": [
+                "10:00"
+              ],
+              "slots": [
+                {
+                  "t": "10:00",
+                  "rm": 240
+                }
+              ]
+            }
+          ]
         },
         {
           "date": "2026-12-24",
