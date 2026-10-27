@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 10,
-    "today": "2026-10-27",
-    "generated_at": "2026-10-27T23:49:23.471831+09:00"
+    "today": "2026-10-28",
+    "generated_at": "2026-10-28T00:04:35.231586+09:00"
   },
   "staff": {
     "KAITO": {
@@ -251,7 +251,7 @@
           "day": 27,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -2399,7 +2399,7 @@
           "day": 27,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -4125,7 +4125,7 @@
           "day": 27,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -5803,14 +5803,8 @@
           "day": 27,
           "dow": "火",
           "dow_idx": 2,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-28",
@@ -7455,7 +7449,7 @@
           "day": 27,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -8569,7 +8563,7 @@
           "day": 27,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -9683,16 +9677,8 @@
           "day": 27,
           "dow": "火",
           "dow_idx": 2,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "16:30"
-            ],
-            "45": [
-              "16:30"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-28",
@@ -11421,12 +11407,8 @@
           "day": 27,
           "dow": "火",
           "dow_idx": 2,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-28",
@@ -13563,15 +13545,8 @@
           "day": 27,
           "dow": "火",
           "dow_idx": 2,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "14:30",
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-28",
@@ -15652,7 +15627,7 @@
           "day": 27,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -17709,7 +17684,7 @@
           "day": 27,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -19693,27 +19668,8 @@
           "day": 27,
           "dow": "火",
           "dow_idx": 2,
-          "status": "available",
-          "consult": {
-            "30": [
-              "16:50"
-            ],
-            "45": []
-          },
-          "groups": [
-            {
-              "label": "60分〜90分コース",
-              "times": [
-                "12:00"
-              ],
-              "slots": [
-                {
-                  "t": "12:00",
-                  "rm": 90
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-28",
@@ -21709,14 +21665,8 @@
           "day": 27,
           "dow": "火",
           "dow_idx": 2,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-28",
