@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 10,
-    "today": "2026-10-29",
-    "generated_at": "2026-10-29T23:52:17.609698+09:00"
+    "today": "2026-10-30",
+    "generated_at": "2026-10-30T00:07:27.464318+09:00"
   },
   "staff": {
     "KAITO": {
@@ -269,12 +269,8 @@
           "day": 29,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-30",
@@ -2402,16 +2398,8 @@
           "day": 29,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "14:30"
-            ],
-            "45": [
-              "14:30"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-30",
@@ -4086,12 +4074,8 @@
           "day": 29,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-30",
@@ -5748,7 +5732,7 @@
           "day": 29,
           "dow": "木",
           "dow_idx": 4,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -7401,7 +7385,7 @@
           "day": 29,
           "dow": "木",
           "dow_idx": 4,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -8515,7 +8499,7 @@
           "day": 29,
           "dow": "木",
           "dow_idx": 4,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -9629,7 +9613,7 @@
           "day": 29,
           "dow": "木",
           "dow_idx": 4,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -11333,12 +11317,8 @@
           "day": 29,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-30",
@@ -13392,12 +13372,8 @@
           "day": 29,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-30",
@@ -15509,14 +15485,8 @@
           "day": 29,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-30",
@@ -17514,17 +17484,8 @@
           "day": 29,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "10:00",
-              "14:00"
-            ],
-            "45": [
-              "10:00"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-30",
@@ -19461,12 +19422,8 @@
           "day": 29,
           "dow": "木",
           "dow_idx": 4,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-10-30",
@@ -21425,7 +21382,7 @@
           "day": 29,
           "dow": "木",
           "dow_idx": 4,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
