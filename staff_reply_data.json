@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 11,
-    "today": "2026-11-14",
-    "generated_at": "2026-11-14T23:58:13.887257+09:00"
+    "today": "2026-11-15",
+    "generated_at": "2026-11-15T00:13:38.598544+09:00"
   },
   "staff": {
     "KAITO": {
@@ -134,7 +134,7 @@
           "day": 14,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -1648,17 +1648,8 @@
           "day": 14,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "10:00",
-              "17:00"
-            ],
-            "45": [
-              "10:00"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-15",
@@ -2864,7 +2855,7 @@
           "day": 14,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -4130,12 +4121,8 @@
           "day": 14,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-15",
@@ -5329,7 +5316,7 @@
           "day": 14,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -6164,7 +6151,7 @@
           "day": 14,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -6999,25 +6986,8 @@
           "day": 14,
           "dow": "土",
           "dow_idx": 6,
-          "status": "available",
-          "consult": {
-            "30": [],
-            "45": []
-          },
-          "groups": [
-            {
-              "label": "60分〜120分コース",
-              "times": [
-                "15:30"
-              ],
-              "slots": [
-                {
-                  "t": "15:30",
-                  "rm": 120
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-15",
@@ -8277,7 +8247,7 @@
           "day": 14,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -9867,7 +9837,7 @@
           "day": 14,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -11475,16 +11445,8 @@
           "day": 14,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "16:30"
-            ],
-            "45": [
-              "16:30"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-15",
@@ -12937,7 +12899,7 @@
           "day": 14,
           "dow": "土",
           "dow_idx": 6,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -14331,12 +14293,8 @@
           "day": 14,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-15",
@@ -15835,12 +15793,8 @@
           "day": 14,
           "dow": "土",
           "dow_idx": 6,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-15",
