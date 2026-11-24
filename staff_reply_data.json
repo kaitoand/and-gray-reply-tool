@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 11,
-    "today": "2026-11-24",
-    "generated_at": "2026-11-24T23:49:56.873719+09:00"
+    "today": "2026-11-25",
+    "generated_at": "2026-11-25T00:05:26.812800+09:00"
   },
   "staff": {
     "KAITO": {
@@ -224,7 +224,7 @@
           "day": 24,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -2217,7 +2217,7 @@
           "day": 24,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -3858,12 +3858,8 @@
           "day": 24,
           "dow": "火",
           "dow_idx": 2,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-25",
@@ -5553,25 +5549,8 @@
           "day": 24,
           "dow": "火",
           "dow_idx": 2,
-          "status": "available",
-          "consult": {
-            "30": [],
-            "45": []
-          },
-          "groups": [
-            {
-              "label": "60分〜90分コース",
-              "times": [
-                "12:00"
-              ],
-              "slots": [
-                {
-                  "t": "12:00",
-                  "rm": 90
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-25",
@@ -7176,12 +7155,8 @@
           "day": 24,
           "dow": "火",
           "dow_idx": 2,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-25",
@@ -8854,7 +8829,7 @@
           "day": 24,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -9941,29 +9916,8 @@
           "day": 24,
           "dow": "火",
           "dow_idx": 2,
-          "status": "available",
-          "consult": {
-            "30": [
-              "12:00"
-            ],
-            "45": [
-              "12:00"
-            ]
-          },
-          "groups": [
-            {
-              "label": "60分〜180分コース",
-              "times": [
-                "14:30"
-              ],
-              "slots": [
-                {
-                  "t": "14:30",
-                  "rm": 180
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-25",
@@ -12039,25 +11993,8 @@
           "day": 24,
           "dow": "火",
           "dow_idx": 2,
-          "status": "available",
-          "consult": {
-            "30": [],
-            "45": []
-          },
-          "groups": [
-            {
-              "label": "なんでも",
-              "times": [
-                "13:30"
-              ],
-              "slots": [
-                {
-                  "t": "13:30",
-                  "rm": 240
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-25",
@@ -14082,7 +14019,7 @@
           "day": 24,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -15990,7 +15927,7 @@
           "day": 24,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -17943,12 +17880,8 @@
           "day": 24,
           "dow": "火",
           "dow_idx": 2,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-25",
@@ -20038,7 +19971,7 @@
           "day": 24,
           "dow": "火",
           "dow_idx": 2,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
