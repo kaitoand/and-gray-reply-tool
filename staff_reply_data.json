@@ -2,8 +2,8 @@
   "meta": {
     "year": 2026,
     "month": 11,
-    "today": "2026-11-25",
-    "generated_at": "2026-11-25T23:50:47.034861+09:00"
+    "today": "2026-11-26",
+    "generated_at": "2026-11-26T00:06:14.009063+09:00"
   },
   "staff": {
     "KAITO": {
@@ -233,12 +233,8 @@
           "day": 25,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-26",
@@ -2213,12 +2209,8 @@
           "day": 25,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-26",
@@ -3847,7 +3839,7 @@
           "day": 25,
           "dow": "水",
           "dow_idx": 3,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -5538,14 +5530,8 @@
           "day": 25,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "10:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-26",
@@ -7127,16 +7113,8 @@
           "day": 25,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "14:30"
-            ],
-            "45": [
-              "14:30"
-            ]
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-26",
@@ -8787,7 +8765,7 @@
           "day": 25,
           "dow": "水",
           "dow_idx": 3,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -9874,15 +9852,8 @@
           "day": 25,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "14:00",
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-26",
@@ -11926,7 +11897,7 @@
           "day": 25,
           "dow": "水",
           "dow_idx": 3,
-          "status": "off",
+          "status": "past",
           "groups": []
         },
         {
@@ -13965,27 +13936,8 @@
           "day": 25,
           "dow": "水",
           "dow_idx": 3,
-          "status": "available",
-          "consult": {
-            "30": [
-              "17:00"
-            ],
-            "45": []
-          },
-          "groups": [
-            {
-              "label": "60分〜120分コース",
-              "times": [
-                "11:30"
-              ],
-              "slots": [
-                {
-                  "t": "11:30",
-                  "rm": 120
-                }
-              ]
-            }
-          ]
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-26",
@@ -15860,14 +15812,8 @@
           "day": 25,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-26",
@@ -17825,14 +17771,8 @@
           "day": 25,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "13:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-26",
@@ -19906,14 +19846,8 @@
           "day": 25,
           "dow": "水",
           "dow_idx": 3,
-          "status": "full",
-          "groups": [],
-          "consult": {
-            "30": [
-              "17:00"
-            ],
-            "45": []
-          }
+          "status": "past",
+          "groups": []
         },
         {
           "date": "2026-11-26",
